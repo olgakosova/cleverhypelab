@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Антикорупційний портал НАЗК</title>
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="4VoCr4-FAnCdDMcjKunxEcToSluZ702RWSIuvVSZ76u5EC_8-uJ7Acpuj3BY3bB3tN8EFfaXGdwGSlnqPPShkg==">
+
+<link href="/assets/9b1fbc65/swiper-bundle.css" rel="stylesheet">
+<link href="/css/site.css?v1" rel="stylesheet">    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+            <base href="https://antycorportal.nazk.gov.ua/">
+        
+</head>
+<body>
+<style>
+.head_prerow{height:36px;position:relative}
+.head_prerow ul{list-style:none;margin:0;padding:0;padding-top:10px;display:flex;}
+.head_prerow li{position:relative;line-height:25px;flex-wrap:wrap;}
+.head_prerow li:first-child{padding-right:10px}
+.head_prerow li+li{padding:0 6px}
+.head_prerow li a{letter-spacing: -0.3px;color:rgba(231,246,255,0.8);font-size:14px;position:relative;display: block;white-space: nowrap;}
+.head_prerow li a:hover{color:#FFD72F}
+.head_prerow li.active a{color:#FFD72F;padding-bottom:3px;border-bottom:1px solid #FFD72F}
+.head_prerow li:not(.active) a:after{-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);-webkit-transition:.5s;-o-transition:.5s;position:absolute;bottom:-4px;left:50%;width:0;height:1px;transform:translateX(-50%);background-color:#FFD300;content:'';transition:.5s}
+.head_prerow li:not(.active) a:hover:after{width:100%}
+.head_prerow a.disabled_text{white-space: nowrap;color:#FFF;display:block;text-align:center;transition:.5s;position:absolute;opacity:0;top:0;color:#c4c4c4;transform:translateX(-50%);left:50%;}
+.head_prerow .disabled:hover .disabled_text{opacity:1;transform:translateY(0%);    transform: translateX(-50%);}
+.head_prerow .disabled:hover a{opacity:0;transform:translateY(-100%)}
+section{display:block}
+.head{background:linear-gradient(90deg,#4376B3 0%,#477DBD 34.9%,#234260 100%)}
+.head_row{display:flex;height:100px;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,0.2)}
+.scrolled .head_row,.menu_active .head_row{border-bottom:1px solid transparent}
+.logo{display:flex;align-items:center}
+.logo div{font-size:10px;line-height:11px;letter-spacing:2px;text-transform:uppercase;margin-left:13px;color:rgba(231,246,255,0.6)}
+.logo a{display:block}
+.head_right{display:flex;align-items: center;}
+.head_right > div+*{margin-left:20px;display:flex}
+.head_right .search,.head_right .view,.head_right .header__buttons-btn{width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,0);box-sizing:border-box;-ms-flex-pack:center;justify-content:center;align-items:center;transition:.3s;cursor:pointer;display:flex}
+.head_right .search svg path,.head_right .view svg path{transition:.3s;fill:rgba(231,246,255,0.6)}
+.head_right .search:hover svg path,.head_right .view:hover svg path{fill:#fff}
+.head_right .view svg{width:35px}
+.login{display:flex;align-items:center;height:50px}
+.login svg{margin-right:10px;width:33px;transition:.3s}
+.login svg path{fill:rgba(231,246,255,0.6);transition:.3s}
+.login:hover svg{transform:scale(1.2)}
+.login:hover svg path{fill:red}
+.login span{color:rgba(231,246,255,0.6);transition:.3s;font-size:18px}
+.login:hover span{color:#fff}
+.header__nofitications-dropdown{padding-bottom:15px!important}
+.icon.white{height:24px;display:block}
+.search.search-btn{display:none}    
+.logo_office {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-right: 1px solid rgba(231, 246, 255, 0.6);
+    
+    padding-right: 18px;
+}
+.header__logo-left {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: right;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 20px;
+    min-width: 260px;
+}
+.logo_office div {
+    background: #fff;
+    color: #2B4261;
+    font-size: 11px;
+    line-height: 12px;
+    padding: 2px 5px 3px;
+    border-radius: 3px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+.logo_office div+div {
+    margin-top: 4px;
+}
+.language{
+    color: rgba(231, 246, 255, 0.6);
+}
+.language a:hover{color:#fff;}
+</style>
+<section class="head header fixed-h">
+    <div class="container">
+                
+        <div class="head_prerow">
+            <ul class="scrollblock">
+                 
+                     
+                                                            <li class=""><a href="https://h34275.parkovka.biz.ua/uk/" rel="nofollow" alt="Веб-сайт НАЗК" title="Веб-сайт НАЗК" >Веб-сайт НАЗК</a>
+                                        </li>    
+                 
+                     
+                                                            <li class=""><a href="https://wiki.nazk.gov.ua/" rel="nofollow" alt="База знань" title="База знань" >База знань</a>
+                                        </li>    
+                 
+                     
+                                                            <li class=" disabled"><a href="" rel="nofollow" alt="Онлайн-освіта" title="Онлайн-освіта" >Онлайн-освіта</a>
+                                            <a class="disabled_text">В розробці</a>
+                                        </li>    
+                 
+                     
+                                                            <li class="active"><a href="https://antycorportal.nazk.gov.ua/" rel="nofollow" alt="Антикорпортал" title="Антикорпортал" >Антикорпортал</a>
+                                        </li>    
+                 
+                     
+                                                            <li class=" disabled"><a href="" rel="nofollow" alt="Портал повідомлень викривачів" title="Портал повідомлень викривачів" >Портал повідомлень викривачів</a>
+                                            <a class="disabled_text">В розробці</a>
+                                        </li>    
+                 
+                     
+                                                            <li class=""><a href="https://public.nazk.gov.ua/" rel="nofollow" alt="Реєстр декларацій" title="Реєстр декларацій" >Реєстр декларацій</a>
+                                        </li>    
+                 
+                     
+                                                            <li class=""><a href="https://corruptinfo.nazk.gov.ua/" rel="nofollow" alt="Реєстр корупціонерів" title="Реєстр корупціонерів" >Реєстр корупціонерів</a>
+                                        </li>    
+                 
+                     
+                                                            <li class=""><a href="https://politdata.nazk.gov.ua/" rel="nofollow" alt="Реєстр звітів політпартій" title="Реєстр звітів політпартій" >Реєстр звітів політпартій</a>
+                                        </li>    
+                 
+                     
+                                                            <li class=" disabled"><a href="" rel="nofollow" alt="Приховані інтереси" title="Приховані інтереси" >Приховані інтереси</a>
+                                            <a class="disabled_text">В розробці</a>
+                                        </li>    
+                            </ul>
+        </div>
+        <div class="head_row">
+        <div class="header__burger">
+            <div class="header__burger-btn"><span></span><span></span><span></span></div>
+            <div class="header__burger-text">Меню</div>
+        </div>
+        <a href="/" class="logo">
+        
+            <div class="header__logo-left">
+                <div class="logo_office">
+                    <div>АНТИКОРУПЦІЙНИЙ</div>
+                    <div>ПОРТАЛ</div>
+                </div>
+            </div>
+            <img src="/images/logo.svg" alt="Національне агентство з питань запобігання корупції">
+            <div>Національне агентство<br>з питань запобігання корупції</div>
+        </a>
+        
+        <div class="head_right">
+            
+            <div class="search search-btn">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0)"> <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0525 13.0524C13.1686 12.9362 13.3064 12.844 13.4582 12.7811C13.6099 12.7182 13.7726 12.6858 13.9369 12.6858C14.1011 12.6858 14.2638 12.7182 14.4155 12.7811C14.5673 12.844 14.7052 12.9362 14.8212 13.0524L19.6337 17.8649C19.8683 18.0993 20.0001 18.4172 20.0002 18.7488C20.0004 19.0804 19.8688 19.3985 19.6344 19.633C19.4 19.8676 19.082 19.9994 18.7504 19.9995C18.4188 19.9996 18.1008 19.868 17.8662 19.6336L13.0537 14.8211C12.9375 14.7051 12.8453 14.5672 12.7824 14.4154C12.7195 14.2637 12.6871 14.101 12.6871 13.9368C12.6871 13.7725 12.7195 13.6098 12.7824 13.4581C12.8453 13.3064 12.9375 13.1685 13.0537 13.0524H13.0525Z" fill="white"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M8.125 15C9.02784 15 9.92184 14.8222 10.7559 14.4767C11.5901 14.1312 12.348 13.6248 12.9864 12.9864C13.6248 12.348 14.1312 11.5901 14.4767 10.7559C14.8222 9.92184 15 9.02784 15 8.125C15 7.22216 14.8222 6.32817 14.4767 5.49405C14.1312 4.65994 13.6248 3.90204 12.9864 3.26364C12.348 2.62524 11.5901 2.11883 10.7559 1.77333C9.92184 1.42783 9.02784 1.25 8.125 1.25C6.30164 1.25 4.55295 1.97433 3.26364 3.26364C1.97433 4.55295 1.25 6.30164 1.25 8.125C1.25 9.94836 1.97433 11.697 3.26364 12.9864C4.55295 14.2757 6.30164 15 8.125 15ZM16.25 8.125C16.25 10.2799 15.394 12.3465 13.8702 13.8702C12.3465 15.394 10.2799 16.25 8.125 16.25C5.97012 16.25 3.90349 15.394 2.37976 13.8702C0.856024 12.3465 0 10.2799 0 8.125C0 5.97012 0.856024 3.90349 2.37976 2.37976C3.90349 0.856024 5.97012 0 8.125 0C10.2799 0 12.3465 0.856024 13.8702 2.37976C15.394 3.90349 16.25 5.97012 16.25 8.125Z" fill="white"></path> </g> <defs> <clipPath id="clip0"> <rect width="20" height="20" fill="white"></rect> </clipPath> </defs> </svg>
+            </div>
+            <div class="view">
+                <svg width="35" height="19" viewBox="0 0 35 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.7765 8.94165C7.88298 3.96004 12.5926 1.51921 17.2267 1.50011C21.8603 1.48102 26.549 3.88316 32.6135 8.94157C26.5422 14.2562 21.8542 16.7749 17.2268 16.7549C12.5986 16.7349 7.88967 14.1754 1.7765 8.94165ZM0.687428 8.5421C7.04539 3.28516 12.1059 0.521207 17.2226 0.500122C22.3427 0.479022 27.3819 3.2044 33.6971 8.54581C33.7171 8.56229 33.7361 8.58054 33.7539 8.60055C33.9372 8.80708 33.9184 9.1231 33.7118 9.30641C27.3966 14.9116 22.3528 17.7771 17.2225 17.7549C12.0958 17.7327 7.0306 14.8268 0.672333 9.31012C0.463755 9.12915 0.441375 8.81336 0.622345 8.60478C0.642481 8.58157 0.664287 8.56067 0.687428 8.5421Z" fill="black"></path><path d="M17.2267 1.50011L17.2288 2.00011L17.2267 1.50011ZM1.7765 8.94165L1.46044 8.55422L0.996873 8.93239L1.45132 9.32146L1.7765 8.94165ZM32.6135 8.94157L32.9428 9.31779L33.3831 8.93239L32.9337 8.5576L32.6135 8.94157ZM17.2268 16.7549L17.2246 17.2549L17.2246 17.2549L17.2268 16.7549ZM0.687428 8.5421L1.00043 8.93207L1.00604 8.92744L0.687428 8.5421ZM17.2226 0.500122L17.2246 1.00012L17.2226 0.500122ZM33.6971 8.54581L33.3741 8.92761L33.3795 8.93202L33.6971 8.54581ZM33.7539 8.60055L33.3799 8.93246L33.3799 8.93246L33.7539 8.60055ZM33.7118 9.30641L34.0437 9.68036L34.0437 9.68036L33.7118 9.30641ZM17.2225 17.7549L17.2246 17.2549L17.2246 17.2549L17.2225 17.7549ZM0.672333 9.31012L0.344657 9.68778L0.344657 9.68778L0.672333 9.31012ZM0.622345 8.60478L0.244685 8.2771L0.244683 8.27711L0.622345 8.60478ZM17.2246 1.00012C12.4097 1.01996 7.58497 3.55788 1.46044 8.55422L2.09256 9.32908C8.18098 4.36221 12.7754 2.01846 17.2288 2.00011L17.2246 1.00012ZM32.9337 8.5576C26.8479 3.4814 22.0423 0.980265 17.2246 1.00012L17.2288 2.00011C21.6783 1.98177 26.25 4.28492 32.2932 9.32553L32.9337 8.5576ZM32.2841 8.56535C26.2316 13.8636 21.6637 16.2741 17.229 16.2549L17.2246 17.2549C22.0448 17.2757 26.8528 14.6488 32.9428 9.31779L32.2841 8.56535ZM17.229 16.2549C12.7899 16.2357 8.19928 13.7823 2.10168 8.56183L1.45132 9.32146C7.58007 14.5686 12.4073 17.2341 17.2246 17.2549L17.229 16.2549ZM1.00604 8.92744C7.34864 3.6832 12.2924 1.02044 17.2246 1.00012L17.2205 0.000125821C11.9194 0.0219709 6.74214 2.88712 0.368817 8.15676L1.00604 8.92744ZM17.2246 1.00012C22.1569 0.979792 27.0777 3.60196 33.3742 8.92757L34.02 8.16405C27.6861 2.80683 22.5285 -0.0217474 17.2205 0.000125821L17.2246 1.00012ZM34.1278 8.26865C34.0927 8.22903 34.0548 8.19263 34.0146 8.1596L33.3795 8.93202L33.3799 8.93246L34.1278 8.26865ZM34.0437 9.68036C34.4568 9.31375 34.4944 8.68171 34.1278 8.26865L33.3799 8.93246L33.3799 8.93246L34.0437 9.68036ZM17.2203 18.2549C22.5472 18.2779 27.7124 15.2997 34.0437 9.68036L33.3799 8.93246C27.0807 14.5234 22.1584 17.2762 17.2246 17.2549L17.2203 18.2549ZM0.344657 9.68778C6.71572 15.2156 11.9007 18.2319 17.2203 18.2549L17.2246 17.2549C12.2908 17.2336 7.34549 14.4381 1.00001 8.93246L0.344657 9.68778ZM0.244683 8.27711C-0.117257 8.69426 -0.072497 9.32584 0.344657 9.68778L1.00001 8.93246L1.00001 8.93246L0.244683 8.27711ZM0.374454 8.15216C0.32803 8.18942 0.284559 8.23115 0.244685 8.2771L1.00001 8.93246L1.0004 8.93203L0.374454 8.15216Z" fill="black"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M19.6102 9.03878C19.2234 9.43297 18.5903 9.43895 18.1961 9.05213C17.8232 8.68621 17.5278 8.58164 17.2974 8.57504C17.0581 8.56818 16.7008 8.66182 16.2007 9.06356C15.7702 9.40946 15.1408 9.34083 14.7949 8.91028C14.449 8.47973 14.5176 7.85029 14.9481 7.5044C15.6803 6.91623 16.4887 6.55105 17.3547 6.57586C18.2297 6.60092 18.9792 7.0185 19.5969 7.62463C19.9911 8.01145 19.9971 8.64458 19.6102 9.03878Z" fill="black"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M17.1902 13.0443C19.3534 13.0443 21.1071 11.2907 21.1071 9.12751C21.1071 6.96431 19.3534 5.21069 17.1902 5.21069C15.0271 5.21069 13.2734 6.96431 13.2734 9.12751C13.2734 11.2907 15.0271 13.0443 17.1902 13.0443ZM17.1902 15.0443C20.458 15.0443 23.1071 12.3953 23.1071 9.12751C23.1071 5.85974 20.458 3.21069 17.1902 3.21069C13.9225 3.21069 11.2734 5.85974 11.2734 9.12751C11.2734 12.3953 13.9225 15.0443 17.1902 15.0443Z" fill="black"></path></svg>
+            </div>
+            <div class="language">
+            <a lang="en-US" hreflang="en-US" href="" onclick="return false;">ENG</a>
+            </div>
+            <div class="header__buttons-btn data_notify">
+                <span class="header__notifications">
+                    <span class="icon white">
+                        <span class="counter" style="display: none;">0</span>
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="535.5px" height="535.5px" viewBox="0 0 535.5 535.5" xml:space="preserve"><g id="notifications-on"><path d="M142.8,53.55l-35.7-35.7C45.9,63.75,5.1,135.15,0,216.75h51C56.1,147.9,89.25,89.25,142.8,53.55z M484.5,216.75h51 c-5.1-81.6-43.35-153-104.55-198.9l-35.7,35.7C446.25,89.25,479.4,147.9,484.5,216.75z M433.5,229.5 c0-79.05-53.55-142.8-127.5-160.65V51c0-20.4-17.85-38.25-38.25-38.25c-20.4,0-38.25,17.85-38.25,38.25v17.85 C155.55,86.7,102,150.45,102,229.5v140.25l-51,51v25.5h433.5v-25.5l-51-51V229.5z M267.75,522.75c2.55,0,7.65,0,10.2,0 c17.85-2.55,30.6-15.3,35.7-30.6c2.55-5.101,5.1-12.75,5.1-20.4h-102C216.75,499.8,239.7,522.75,267.75,522.75z"></path></g>
+                        </svg>
+                    </span>
+                </span>
+            </div>
+                            <a class="login" href="/account/login/">
+                    <svg width="39" height="42" viewBox="0 0 39 42" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M28.9415 7.8225C28.8115 7.8225 28.6815 7.7875 28.5677 7.7175C25.4478 5.985 22.7502 5.25 19.5165 5.25C16.299 5.25 13.244 6.0725 10.4653 7.7175C10.0753 7.945 9.58775 7.7875 9.36025 7.3675C9.149 6.9475 9.29525 6.405 9.68525 6.1775C12.7078 4.41 16.0227 3.5 19.5165 3.5C22.9778 3.5 26.0003 4.3225 29.3153 6.16C29.7215 6.3875 29.8678 6.9125 29.6565 7.3325C29.5103 7.6475 29.234 7.8225 28.9415 7.8225ZM5.68775 17.01C5.52525 17.01 5.36275 16.9575 5.2165 16.8525C4.84275 16.5725 4.7615 16.03 5.0215 15.6275C6.63025 13.1775 8.67775 11.2525 11.1153 9.905C16.2178 7.07 22.7502 7.0525 27.869 9.8875C30.3065 11.235 32.354 13.1425 33.9627 15.575C34.2227 15.96 34.1415 16.52 33.7678 16.8C33.394 17.08 32.8902 16.9925 32.6302 16.59C31.1677 14.385 29.3153 12.6525 27.1215 11.445C22.4578 8.8725 16.494 8.8725 11.8465 11.4625C9.6365 12.6875 7.784 14.4375 6.3215 16.6425C6.1915 16.8875 5.94775 17.01 5.68775 17.01ZM15.844 38.1325C15.6328 38.1325 15.4215 38.045 15.2753 37.87C13.8615 36.3475 13.0978 35.3675 12.009 33.25C10.8878 31.0975 10.3028 28.4725 10.3028 25.655C10.3028 20.4575 14.4303 16.2225 19.5002 16.2225C24.5702 16.2225 28.6978 20.4575 28.6978 25.655C28.6978 26.145 28.3403 26.53 27.8853 26.53C27.4303 26.53 27.0728 26.145 27.0728 25.655C27.0728 21.42 23.6765 17.9725 19.5002 17.9725C15.324 17.9725 11.9278 21.42 11.9278 25.655C11.9278 28.175 12.4478 30.5025 13.439 32.3925C14.479 34.405 15.194 35.2625 16.4453 36.6275C16.754 36.9775 16.754 37.52 16.4453 37.87C16.2665 38.045 16.0553 38.1325 15.844 38.1325ZM27.4953 34.895C25.5615 34.895 23.8552 34.37 22.4577 33.3375C20.0365 31.57 18.5902 28.7 18.5902 25.655C18.5902 25.165 18.9477 24.78 19.4027 24.78C19.8577 24.78 20.2152 25.165 20.2152 25.655C20.2152 28.1225 21.3853 30.45 23.3678 31.885C24.5215 32.725 25.8703 33.1275 27.4953 33.1275C27.8853 33.1275 28.5352 33.075 29.1852 32.9525C29.624 32.865 30.0465 33.18 30.1278 33.67C30.209 34.1425 29.9165 34.5975 29.4615 34.685C28.5352 34.8775 27.7227 34.895 27.4953 34.895ZM24.229 38.5C24.164 38.5 24.0828 38.4825 24.0177 38.465C21.434 37.695 19.744 36.6625 17.9728 34.79C15.6978 32.3575 14.4465 29.12 14.4465 25.655C14.4465 22.82 16.689 20.51 19.4515 20.51C22.214 20.51 24.4565 22.82 24.4565 25.655C24.4565 27.5275 25.9677 29.05 27.8365 29.05C29.7052 29.05 31.2165 27.5275 31.2165 25.655C31.2165 19.0575 25.9352 13.7025 19.4353 13.7025C14.8203 13.7025 10.5953 16.4675 8.694 20.755C8.06025 22.1725 7.73525 23.835 7.73525 25.655C7.73525 27.02 7.849 29.1725 8.824 31.9725C8.9865 32.4275 8.77525 32.935 8.35275 33.0925C7.93025 33.2675 7.459 33.0225 7.31275 32.585C6.5165 30.2925 6.1265 28.0175 6.1265 25.655C6.1265 23.555 6.50025 21.6475 7.2315 19.985C9.39275 15.1025 14.1865 11.935 19.4353 11.935C26.829 11.935 32.8415 18.0775 32.8415 25.6375C32.8415 28.4725 30.599 30.7825 27.8365 30.7825C25.074 30.7825 22.8315 28.4725 22.8315 25.6375C22.8315 23.765 21.3202 22.2425 19.4515 22.2425C17.5828 22.2425 16.0715 23.765 16.0715 25.6375C16.0715 28.63 17.144 31.43 19.1103 33.53C20.654 35.175 22.1327 36.085 24.424 36.7675C24.8627 36.89 25.1065 37.38 24.9928 37.835C24.9115 38.2375 24.5702 38.5 24.229 38.5Z" fill="#FF0000"/> </svg>
+                    <!-- <span>Вхід / Реєстрація</span> -->
+                </a>
+                    </div>
+        </div>
+    </div>
+    <div id="my_accessibility">
+        <div class="container_accessibility">
+            <div class="changes">
+                <div class="font-size">
+                    <div class="font-minus">A-</div>
+                    <div class="font-normal">A</div>
+                    <div class="font-plus">A+</div>
+                </div>
+                                <div class="color">
+                    <div class="black-on-white">A</div>
+                    <div class="white-on-black">A</div>
+                                    </div>
+            </div>
+            <div id="accessibility_off">
+                <i class="far fa-eye"></i> Звичайна версія сайту
+            </div>
+        </div>
+    </div>
+    <div class="header__menu">
+        <div class="header__menu-container container">
+            <div class="header__menu-wrap">
+                <ul id="menu-golovne-menyu" class="header__menu-left">
+                    <div class="header__menu-block">
+                        <div class="header__menu-title">Корупціні ризики</div>
+                        <ul class="menu_sublist">
+                            <li><a href="/risks/">Каталог корупційних ризиків</a></li>
+                            <li><a href="/risks/catalog/">Каталог ризиків</a></li>
+                            <li><a href="/risks/spheretypical/">Типові ризики</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__menu-block">
+                        <div class="header__menu-title">Ефективність уповноважених</div>
+                        <ul class="menu_sublist">
+                            <li><a href="/efektyvnist-upovnovazhenyh/">Ефективність уповноважених</a></li>
+                            <li><a href="/efektyvnist-upovnovazhenyh/?rating=1">ТОП 50 уповноважених органів влади, підприємств, установ, організацій</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__menu-block">
+                        <div class="header__menu-title">База знань</div>
+                        <ul class="menu_sublist">
+                            <!-- <li><a href="">Особливості</a></li>
+                            <li><a href="">Особливості</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="header__menu-block">
+                        <div class="header__menu-title">Антикорупційна мапа</div>
+                        <ul class="menu_sublist">
+                            <li><a href="/map/">Каталог суб'єктів антикорупційного нагляду НАЗК</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__menu-block">
+                        <div class="header__menu-title">Антикорупційні програми</div>
+                        <ul class="menu_sublist">
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="header__menu-block">
+                        <div class="header__menu-title">Онлайн-навчання</div>
+                        <ul class="menu_sublist">
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
+                    
+                </ul>	
+            </div>
+            <div class="header__menu-right">
+                <a class="btn3" href="https://nazk.gov.ua/uk/roz-yasnennya-ta-reyestry/">Роз'яснення та реєстри</a>
+                <a class="btn0" href="/#ac_number">АНТИКОРУПЦІЯ У ЦИФРАХ</a>
+                <a class="btn2 disallow" href="https://nazk.gov.ua/uk/povidomyty-pro-koruptsiyu/">
+                    <div class="text">Повідомити про корупцію</div>
+                </a>
+                <a class="btn1" href="https://nazk.gov.ua/uk/monitoryng-diyalnosti-natsionalnogo-agenstva/">Моніторинг діяльності НАЗК</a>
+                <div class="header__menu-phone"><a href="tel:380442000694">+38 (044) 200-06-94</a>
+                    <p>Контакт-центр в робочі дні<br>працює з 9:00 до 18:00</p>
+                </div><a class="header__menu-mail" href="mailto:info@nazk.gov.ua">info@nazk.gov.ua</a>
+                <div class="header__menu-sochial">
+                    <a href="https://www.facebook.com/NAZKgov" rel="nofollow" target="blank_"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.38226 0C1.95468 0 0 1.95468 0 4.38226V19.6178C0 22.0453 1.95468 24 4.38226 24H12.6398V14.6175H10.1588V11.2395H12.6398V8.35351C12.6398 6.08611 14.1057 4.00426 17.4825 4.00426C18.8497 4.00426 19.8608 4.13551 19.8608 4.13551L19.7813 7.29002C19.7813 7.29002 18.7501 7.28028 17.625 7.28028C16.4073 7.28028 16.212 7.84135 16.212 8.77279V11.2395H19.878L19.7183 14.6175H16.212V24H19.6177C22.0453 24 24 22.0454 24 19.6178V4.38228C24 1.9547 22.0453 2.4e-05 19.6177 2.4e-05H4.38223L4.38226 0Z" fill="#FEFEFE"></path></svg></a>
+                    <a href="https://www.youtube.com/channel/UCKwoUDbscWm4BT7BoBo0kMg/" rel="nofollow" target="blank_"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27.5771 8.6748C27.4277 8.11828 27.1347 7.61076 26.7275 7.20303C26.3203 6.79531 25.8132 6.5017 25.2568 6.35156C23.209 5.80078 15 5.80078 15 5.80078C15 5.80078 6.79102 5.80078 4.74316 6.34863C4.18658 6.49828 3.67917 6.79173 3.27189 7.19953C2.86461 7.60733 2.57179 8.11511 2.42285 8.67188C1.875 10.7227 1.875 15 1.875 15C1.875 15 1.875 19.2773 2.42285 21.3252C2.72461 22.4561 3.61523 23.3467 4.74316 23.6484C6.79102 24.1992 15 24.1992 15 24.1992C15 24.1992 23.209 24.1992 25.2568 23.6484C26.3877 23.3467 27.2754 22.4561 27.5771 21.3252C28.125 19.2773 28.125 15 28.125 15C28.125 15 28.125 10.7227 27.5771 8.6748ZM12.3926 18.9258V11.0742L19.1895 14.9707L12.3926 18.9258Z" fill="#FEFEFE"></path></svg></a>
+                    <a href="https://twitter.com/NAZK_gov" rel="nofollow" target="blank_"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 4.33994C23.8395 4.67886 23.5407 5.10696 23.1037 5.62422C22.6667 6.14148 22.1271 6.59634 21.4849 6.98876C21.5028 7.13148 21.5162 7.26524 21.5251 7.3901C21.5943 9.3125 21.1339 11.307 20.495 12.9687C19.2566 16.0582 17.3591 18.5446 14.6488 20.2329C11.8225 21.8541 8.53098 22.1989 5.49832 21.9051C3.485 21.6739 1.50066 21.0165 0 19.7781C2.74466 20.1061 5.3061 19.1725 7.3311 17.6643C5.08166 17.7213 3.44728 16.094 2.6756 14.2128C3.02346 14.304 3.38736 14.293 3.71908 14.2664C4.1274 14.228 4.515 14.1897 4.89634 14.1058C3.462 13.6431 2.20696 12.7923 1.55186 11.5105C1.1676 10.6983 0.9941 9.92486 0.99 9.04896C1.6621 9.40282 2.47056 9.7477 3.21074 9.71784C2.0929 8.7709 1.19674 7.5607 1.03014 6.17268C0.92496 5.01536 1.21456 3.95892 1.63216 2.97536C3.3043 4.81306 5.18046 6.3254 7.34452 7.2563C8.82448 7.86234 10.3002 8.18644 11.8261 8.19274C11.65 6.82984 11.787 5.51174 12.4282 4.3934C13.1828 3.19104 14.2837 2.49344 15.5185 2.1459C17.2852 1.69286 19.0084 2.3328 20.0937 3.56396C21.2642 3.43754 22.3853 2.9183 23.2777 2.3867C22.8985 3.5349 22.1602 4.67654 21.0837 5.22282C22.1086 5.03306 23.0867 4.72964 24 4.33994Z" fill="#FEFEFE"></path></svg></a>
+                    <a href="https://t.me/NAZK_gov_ua" rel="nofollow" target="blank_"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.4393 4.62225L19.2705 19.566C19.0313 20.6205 18.408 20.883 17.5223 20.3865L12.6938 16.8285L10.3643 19.0695C10.1063 19.3275 9.89102 19.5427 9.39377 19.5427L9.74102 14.6258L18.6893 6.54C19.0785 6.1935 18.6045 6.00075 18.0848 6.348L7.02227 13.314L2.25977 11.823C1.22402 11.4998 1.20527 10.7873 2.47577 10.29L21.1035 3.11325C21.966 2.79 22.7205 3.30525 22.4393 4.623V4.62225Z" fill="#FEFEFE"></path></svg></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__search2">
+        <div class="container" style="position: relative;">
+            <div class="header__search-close"></div>
+            <form class="header__search-block" action="" method="get">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.1573 17.5027L14.7469 13.0922C15.8087 11.6786 16.3819 9.95798 16.38 8.19C16.38 3.67406 12.7059 0 8.19 0C3.67406 0 0 3.67406 0 8.19C0 12.7059 3.67406 16.38 8.19 16.38C9.95798 16.3819 11.6786 15.8087 13.0922 14.7469L17.5027 19.1573C17.7259 19.3569 18.0171 19.4635 18.3164 19.4551C18.6158 19.4467 18.9006 19.324 19.1123 19.1123C19.324 18.9006 19.4467 18.6158 19.4551 18.3164C19.4635 18.0171 19.3569 17.7259 19.1573 17.5027ZM2.34 8.19C2.34 7.03298 2.6831 5.90194 3.3259 4.93991C3.96871 3.97789 4.88235 3.22808 5.9513 2.78531C7.02025 2.34253 8.19649 2.22668 9.33128 2.45241C10.4661 2.67813 11.5084 3.23529 12.3266 4.05343C13.1447 4.87156 13.7019 5.91393 13.9276 7.04872C14.1533 8.18351 14.0375 9.35975 13.5947 10.4287C13.1519 11.4976 12.4021 12.4113 11.4401 13.0541C10.4781 13.6969 9.34702 14.04 8.19 14.04C6.63906 14.0381 5.15217 13.4212 4.05548 12.3245C2.9588 11.2278 2.34186 9.74095 2.34 8.19Z" fill="#224B64"></path></svg>
+                <input type="search" id="" value="" placeholder="Пошук" name="search">
+            <button type="submit">Шукати</button>
+            </form>
+        </div>
+        </div>
+</section>
+
+<section class="content main_content">
+    <div class="main_content_f"></div>
+    
+    <!--<div class="container">
+                
+    </div>-->
+    <style>
+    .main_menu_block{min-height:390px;background:linear-gradient(90deg,#4376B3 0%,#477DBD 34.9%,#234260 100%);position:relative}
+    .main_menu_block .mmain{position:relative;min-height:465px}
+    .main_menu_block:before{content:'';width:40%;position:absolute;background:#fff;height:55px;bottom:-34px;left:-4px;transform:rotate(4.5deg)}
+    .main_menu_block:after{content:'';width:40%;position:absolute;background:#fff;height:55px;bottom:-34px;right:-4px;transform:rotate(-4.5deg)}
+    .main_menu_block img{position:absolute;right:21%;top:25%}
+    h1{font-weight:500;font-size:50px;line-height:63px;color:#FFF;filter:drop-shadow(3px 4px 8px rgba(0,0,0,0.25))}
+    .row_h1{padding-top:82px;display:flex;align-items:center}
+    .row_h1 .slog{position:relative}
+    .row_h1 p{background:#FFD72F;box-shadow:0 15px 20px rgba(0,0,0,0.1);border-radius:5px;display:inline-block;font-size:23px;line-height:29px;text-align:center;letter-spacing:2px;text-transform:uppercase;color:#234463;padding:4px 13px}
+    .row_h1 p+p{position:absolute;top:31px;left:425px}
+    .main_menu{position:relative;display:table;border-collapse:collapse;background:radial-gradient(50% 2237.74% at 50% 50%,#1E5F94 0%,#27496c 100%);box-shadow:0 10px 30px rgba(0,0,0,0.05);border-radius:20px;margin:-127px auto 0}
+    .main_menu ul{display:table-row}
+    .main_menu li{display:table-cell;box-sizing:border-box;overflow:hidden}
+    .main_menu li + li{border-left:1px solid rgba(255,255,255,0.1)}
+    .main_menu ul + ul{border-top:1px solid rgba(255,255,255,0.1)}
+    .main_menu a{font-weight:500;font-size:20px;line-height:26px;color:#FFF;padding:21px;display:block;text-align:center;min-width:380px;position:relative}
+    .main_menu a:hover{color:#FFD72F}
+    .main_menu a:after{-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);-webkit-transition:.5s;-o-transition:.5s;position:absolute;bottom:13px;left:50%;width:0;height:2px;transform:translateX(-50%);background-color:#FFD300;content:'';transition:.5s}
+    .main_menu a:hover:after{width:75%}
+    h2{font-weight:700;font-size:30px;line-height:34px;color:#234260;border-left:5px solid #FFD72F;padding-left:5px;text-transform:uppercase;width:auto}
+    .last_news{padding:42px 105px 0;margin-bottom:65px}
+    .row_top{justify-content:center;margin-bottom:26px}
+    .row_slide .name{font-size:19px;line-height:21px;color:rgba(0,0,0,0.78);font-weight:700;padding-top:13px;margin-bottom:10px;transition:.3s}
+    .row_slide .date{font-weight:700;font-size:14px;line-height:18px;padding:3px 5px;color:#1a1a1a;background:#FFD72F;border-radius:5px;position:absolute;top:10px;left:15px}
+    .swiper-slide .image{position:relative;overflow:hidden}
+    .swiper-slide .image:before,.swiper-slide .image:after{-webkit-transition:-webkit-transform .5s ease;-o-transition:transform .5s ease;z-index:1;position:absolute;right:0;bottom:0;background:#FFD72F;content:"";transition:-webkit-transform .5s ease;transition:transform .5s ease;transition:transform .5s ease,-webkit-transform .5s ease}
+    .swiper-slide .image:before{-webkit-transform:translateX(calc(-100% + 50px));-ms-transform:translateX(calc(-100% + 50px));width:100%;height:2px;transform:translateX(calc(-100% + 50px))}
+    .swiper-slide .image:after{-webkit-transform:translateY(100%);-ms-transform:translateY(100%);width:2px;height:100%;transform:translateY(100%)}
+    .image .image_ef:before,.image .image_ef:after{-webkit-transition:-webkit-transform .5s ease;-o-transition:transform .5s ease;z-index:1;position:absolute;top:0;left:0;background:#FFD72F;content:"";transition:-webkit-transform .5s ease;transition:transform .5s ease;transition:transform .5s ease,-webkit-transform .5s ease}
+    .image .image_ef:before{-webkit-transform:translateX(calc(100% - 50px));-ms-transform:translateX(calc(100% - 50px));width:100%;height:2px;transform:translateX(calc(100% - 50px))}
+    .image .image_ef:after{-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);width:2px;height:100%;transform:translateY(-100%)}
+    .swiper-slide a:hover .image .image_ef:before,.swiper-slide a:hover .image .image_ef:after,.swiper-slide a:hover .image:before,.swiper-slide a:hover .image:after{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}
+    .swiper-slide .image_h:after{transition:background .5s ease;content:"";position:absolute;top:0;left:0;width:100%;height:100%}
+    .swiper-slide a:hover .image_h:after{background:rgba(0,0,0,.38)}
+    .swiper-pagination-bullet-active{background:#4376b3}
+
+    .swiper-slide a:hover .name{color:#FFD72F}
+    .swiper-pagination{position:relative;bottom:0;padding-top:30px}
+    .swiper-pagination-bullet{width:25px;height:25px}
+    .swiper-pagination-bullet:not(.swiper-pagination-bullet-active):hover{
+        opacity: 0.4;
+    }
+    .button_white:hover{
+    background: #FFD72F;
+    color: #000;
+    }
+    .last_news .button{margin:25px auto 0;display:block;width:233px}
+    .inform{padding:26px 0 41px;background:#FBFBFB}
+    .inform h2{display:inline-block}
+    .inform .row_h2{text-align:center}
+    .inform .help{font-size:20px;line-height:23px;text-align:center;color:#888;text-align:center;padding-top:13px}
+    .inform .items{padding-top:39px;display:flex;justify-content:space-around}
+        .inform .title{padding-top:12px;font-weight:700;font-size:24px;line-height:28px;color:#1E5F94}
+    .inform .name{font-weight:500;font-size:20px;line-height:23px;color:#000;padding-top:5px}
+    .inform .info{padding-top:10px;font-weight:300;font-size:20px;line-height:23px;color:#5B5757}
+    .inform .info span{color:#000}
+    .search_section{padding-top:30px}
+    .search_section .container{position:relative}
+    .search_section h2{font-weight:700;font-size:35px;line-height:40px;text-transform:uppercase;border:none;border-left: 5px solid #FFD72F;padding-left: 5px;margin-top: 15px;margin-bottom: 25px!important;}
+    /* .search_section img{box-shadow:-18px -20px 79px -33px #1E5F94;border-radius:20px} */
+    .search_section input[type="search"]{font-size:16px;border-radius:6px 0 0 6px;flex:1}
+    .search_form{width:607px;display:flex;justify-content:space-between;margin-bottom:28px;position:relative}
+    .search_form button{font-weight:500;font-size:20px;line-height:32px;text-align:center;letter-spacing:1px;color:#000;padding:8px 25px;background:#FFD72F;border-radius:0 6px 6px 0}
+    .search_section .title{font-size: 20px;line-height: 29px;color:#000;margin-bottom:15px}
+    /*.search_section .search_img1{position:absolute;z-index:9;right:0;top:28px}*/
+    .search_section form{display:flex;align-items:flex-start}
+    /*.search_img2{margin-left:90px}*/
+    .counters{padding-top:53px;background:#F8F7F7;padding-bottom:38px}
+    .counters h2{margin-bottom:9px;display:inline-block}
+    .counters .row_h2{text-align:center}
+    .counters .help{font-size:17px;line-height:20px;text-align:center;color:#6A6A6A}
+    .counters .count_items{margin-top:19px;display:flex;justify-content:center;margin-bottom:54px}
+    .counters .count_item{width:25%}
+    .counters .count_item+.count_item{border-left:2px solid #9D9D9D}
+    .counters .title{font-weight:300;font-size:18px;line-height:21px;text-align:center;color:#1E5F94}
+    .counters .count{font-weight:700;font-size:56px;line-height:64px;color:#1E5F94;text-align:center}
+    .counters .buttons{text-align:center}
+    .tutorial{padding-top:70px}
+    .tutorial_block{margin-bottom:50px; 
+        /*background:linear-gradient(125deg,#1180DA -0.37%,#1E5F94 76.03%,#1180DA 76.03%);*/
+        box-shadow:5px 49px 68px -61px #1E5F94;
+        background: linear-gradient(90deg,#4376B3 0%,#477DBD 34.9%,#234260 100%);
+        border-radius:10px;padding:48px 30px 26px 336px;position:relative;color:#FFF}
+    .tutorial_block:before{content:'';position:absolute;width: 239px;height: 229px;
+        background:url(/images/site/index/decor_main.svg) center center no-repeat;
+        top:44px;
+        /*right:92px;*/
+        left: 47px;
+        background-size: cover;
+        /*background-size: contain;*/
+        animation-name: fkfogV;
+        animation-duration: 6s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    /*@-webkit-keyframes fkfogV{0%{-webkit-transform:translateY(-3%);-ms-transform:translateY(-3%);transform:translateY(-3%);}50%{-webkit-transform:translateY(3%);-ms-transform:translateY(3%);transform:translateY(3%);}100%{-webkit-transform:translateY(-3%);-ms-transform:translateY(-3%);transform:translateY(-3%);}}*/
+    @keyframes fkfogV{
+        0%{
+            -webkit-transform:translateY(-4%);-ms-transform:translateY(-4%);transform:translateY(-4%);}50%{-webkit-transform:translateY(4%);-ms-transform:translateY(4%);transform:translateY(4%);}100%{-webkit-transform:translateY(-4%);-ms-transform:translateY(-4%);transform:translateY(-4%);}}
+    .tutorial_block .title{font-weight:500;font-size:36px;line-height:41px;letter-spacing:1px;display:block}
+    .tutorial_block .description{font-weight:400;font-size:17px;line-height:23px;letter-spacing:.01em;max-width:695px;display:block;padding:17px 0}
+    
+    .swiper-pagination{
+        padding-top: 10px;
+    }
+    .tutorial_block .swiper-pagination{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 12%;
+        }
+      .tutorial_block .swiper-pagination-bullet{
+          width: 60px;
+          height: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 12px;
+          font-size:24px;
+          transition: .3s;
+      }
+      .tutorial_block .swiper-pagination-bullet-active{
+        color: #1a1a1a;
+        background: #FFD72F;
+      }
+    .swiper-slide img{width:100%;display:block}
+    .inform .item{display:flex;flex-direction:column;align-items:center}
+    .inform .item .date{margin-top:30px;width:147px;background:#E0F0FF;border-radius:10px;font-weight:700;font-size:35px;line-height:40px;text-align:center;color:#2495D8;margin-bottom:13px;padding:15px 0 16px}
+    .inform .item .date span{font-size:25px;line-height:29px}
+    .inform .item .place{font-weight:500;font-size:18px;line-height:21px;text-align:center;color:#000}
+    .inform .item .place span{display:block;font-size:20px;line-height:23px;color:#1E5F94;padding-bottom:9px}
+    .polygon{right:0;bottom:93px;width:60%;height:280px;position:absolute;z-index:0}
+    .main_menu a.disabled_text{font-weight:500;font-size:20px;line-height:26px;color:#FFF;padding:21px;display:block;text-align:center;min-width:380px;position:relative;transition:.5s;position:absolute;opacity:0;top:0;color:#c4c4c4}
+    .disabled:hover .disabled_text{opacity:1;transform:translateY(0%)}
+    .disabled:hover a{transform:translateY(-100%)}
+    .search_block{display:flex;padding-bottom:50px;padding-top:30px;justify-content:space-between}
+    #doc_result.active{padding:5px 0;padding:5px 0}
+    .input-block-dropdown.active{opacity:1;visibility:visible;transform:scale(1)}
+    .input-block-dropdown{position:absolute;top:48px;left:0;z-index:100;background:#FFF;border-radius:6px;border:1px solid #C4C4C4;filter:drop-shadow(0 2px 10px rgba(0,0,0,.25));width:100%;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;opacity:0;visibility:hidden;transform:scale(.8);transition:.3s}
+    .input-block-dropdown-el{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center}
+    .input-block-dropdown-el:hover p{color:#FFD72F}
+    .input-block-dropdown-el .bal{background:#3B77BC;color:#fff;display:inline-block;padding:5px 6px 6px;border-radius:5px;margin-right:7px;line-height:18px;transition:.3s}
+    
+.tooltip {
+    position: relative;
+}
+
+.tooltip .tooltiptext {
+    opacity: 0;
+    width: 220px;
+    background-color: #BEE6FD;
+    color: #234463;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -110px;
+    transition: .3s;
+}
+
+.tooltip.active .tooltiptext {
+    opacity: 1;
+}
+.input-block-dropdown-el .bal{
+    display: none;
+}
+</style>
+<div class="site-index">
+
+    <div class="main_menu_block">
+        <!-- <img src="images/site/networking.svg" alt="Антикорупційний портал"> -->
+        
+        <div class="container">
+            <div class="mmain">
+                <div class="polygon" data-point="40" data-edges="5"><svg fill="transparent" width="705" height="500" viewbox="0 0 705 500"><rect id="bg" width="705" height="500"></rect><g id="main"><g id="polygons"><path d=" M 137.3932050770257 452.4515359051873 L 139.91567845894264 432.63088305665383  170.82432709549101 424.12759314628255  168.10422113053744 367.5287290401826  291.8429982949781 453.5723048026999  L 137.3932050770257 452.4515359051873  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 508.9940999595333 196.54149424999022 L 411.50092110191343 99.20771169943137  419.72124173432735 32.080969112106914  513.4695243004601 58.27565930785721  574.0085276441675 74.33441963954738  L 508.9940999595333 196.54149424999022  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 416.89418534639464 236.17813601688422 L 327.2121103401255 209.26593002278298  346.97836002695504 39.87425839334185  363.26403848203654 68.98908915200423  411.50092110191343 99.20771169943137  L 416.89418534639464 236.17813601688422  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 180.19784202986023 476.20716622200587 L 168.10422113053744 367.5287290401826  139.91567845894264 432.63088305665383  170.82432709549101 424.12759314628255  137.3932050770257 452.4515359051873  L 180.19784202986023 476.20716622200587  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 135.7237512848261 270.9760737369015 L 19.55326201772119 143.44114338021666  54.47097613749972 183.37244902918349  86.41188173338017 195.59252969697584  158.41307737573953 184.0085334581247  L 135.7237512848261 270.9760737369015  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 574.0085276441675 74.33441963954738 L 515.009586944054 85.31610009341068  508.9940999595333 196.54149424999022  411.50092110191343 99.20771169943137  419.72124173432735 32.080969112106914  L 574.0085276441675 74.33441963954738  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 158.41307737573953 184.0085334581247 L 86.41188173338017 195.59252969697584  135.7237512848261 270.9760737369015  21.320207892104015 225.99195740559642  19.55326201772119 143.44114338021666  L 158.41307737573953 184.0085334581247  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 677.1228552755822 187.06490188742774 L 651.6473102312656 252.05944286770796  515.009586944054 85.31610009341068  574.0085276441675 74.33441963954738  513.4695243004601 58.27565930785721  L 677.1228552755822 187.06490188742774  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 180.19784202986023 476.20716622200587 L 137.3932050770257 452.4515359051873  157.01239774471787 353.91570210920906  168.10422113053744 367.5287290401826  170.82432709549101 424.12759314628255  L 180.19784202986023 476.20716622200587  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 516.4297110709284 487.2435032993305 L 598.4332489638023 441.2347992470302  587.8941729320284 381.16953527619995  576.3445053569972 321.7319817182793  644.7365958943701 495.90665247993417  L 516.4297110709284 487.2435032993305  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 598.4332489638023 441.2347992470302 L 516.4297110709284 487.2435032993305  291.8429982949781 453.5723048026999  416.89418534639464 236.17813601688422  587.8941729320284 381.16953527619995  L 598.4332489638023 441.2347992470302  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 168.10422113053744 367.5287290401826 L 157.01239774471787 353.91570210920906  86.41188173338017 195.59252969697584  158.41307737573953 184.0085334581247  183.91972802422742 262.0173074914467  L 168.10422113053744 367.5287290401826  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 651.6473102312656 252.05944286770796 L 576.3445053569972 321.7319817182793  587.8941729320284 381.16953527619995  416.89418534639464 236.17813601688422  508.9940999595333 196.54149424999022  L 651.6473102312656 252.05944286770796  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 531.5948012965639 239.9358108086643 L 416.89418534639464 236.17813601688422  411.50092110191343 99.20771169943137  513.4695243004601 58.27565930785721  515.009586944054 85.31610009341068  L 531.5948012965639 239.9358108086643  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 180.19784202986023 476.20716622200587 L 139.91567845894264 432.63088305665383  170.82432709549101 424.12759314628255  168.10422113053744 367.5287290401826  410.806821316851 426.13648312581256  L 180.19784202986023 476.20716622200587  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 416.89418534639464 236.17813601688422 L 274.08085613623757 214.8638483034954  240.64774916717693 108.3050720466664  251.14930038479588 105.89291462680364  376.6016146997436 136.25127020980653  L 416.89418534639464 236.17813601688422  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 158.41307737573953 184.0085334581247 L 86.41188173338017 195.59252969697584  135.7237512848261 270.9760737369015  54.47097613749972 183.37244902918349  21.320207892104015 225.99195740559642  L 158.41307737573953 184.0085334581247  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 644.7365958943701 495.90665247993417 L 620.6588513002441 496.46740128702794  598.4332489638023 441.2347992470302  516.4297110709284 487.2435032993305  576.3445053569972 321.7319817182793  L 644.7365958943701 495.90665247993417  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 168.10422113053744 367.5287290401826 L 157.01239774471787 353.91570210920906  135.7237512848261 270.9760737369015  158.41307737573953 184.0085334581247  274.08085613623757 214.8638483034954  L 168.10422113053744 367.5287290401826  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 168.10422113053744 367.5287290401826 L 170.82432709549101 424.12759314628255  139.91567845894264 432.63088305665383  135.7237512848261 270.9760737369015  183.91972802422742 262.0173074914467  L 168.10422113053744 367.5287290401826  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 587.8941729320284 381.16953527619995 L 576.3445053569972 321.7319817182793  531.5948012965639 239.9358108086643  508.9940999595333 196.54149424999022  677.1228552755822 187.06490188742774  L 587.8941729320284 381.16953527619995  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 531.5948012965639 239.9358108086643 L 327.2121103401255 209.26593002278298  376.6016146997436 136.25127020980653  411.50092110191343 99.20771169943137  508.9940999595333 196.54149424999022  L 531.5948012965639 239.9358108086643  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 411.50092110191343 99.20771169943137 L 376.6016146997436 136.25127020980653  251.14930038479588 105.89291462680364  346.97836002695504 39.87425839334185  419.72124173432735 32.080969112106914  L 411.50092110191343 99.20771169943137  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 180.19784202986023 476.20716622200587 L 137.3932050770257 452.4515359051873  139.91567845894264 432.63088305665383  157.01239774471787 353.91570210920906  168.10422113053744 367.5287290401826  L 180.19784202986023 476.20716622200587  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 135.7237512848261 270.9760737369015 L 21.320207892104015 225.99195740559642  54.47097613749972 183.37244902918349  19.55326201772119 143.44114338021666  158.41307737573953 184.0085334581247  L 135.7237512848261 270.9760737369015  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 274.08085613623757 214.8638483034954 L 158.41307737573953 184.0085334581247  240.64774916717693 108.3050720466664  346.97836002695504 39.87425839334185  363.26403848203654 68.98908915200423  L 274.08085613623757 214.8638483034954  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 411.50092110191343 99.20771169943137 L 363.26403848203654 68.98908915200423  376.6016146997436 136.25127020980653  251.14930038479588 105.89291462680364  419.72124173432735 32.080969112106914  L 411.50092110191343 99.20771169943137  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 183.91972802422742 262.0173074914467 L 135.7237512848261 270.9760737369015  86.41188173338017 195.59252969697584  54.47097613749972 183.37244902918349  240.64774916717693 108.3050720466664  L 183.91972802422742 262.0173074914467  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 183.91972802422742 262.0173074914467 L 158.41307737573953 184.0085334581247  240.64774916717693 108.3050720466664  251.14930038479588 105.89291462680364  327.2121103401255 209.26593002278298  L 183.91972802422742 262.0173074914467  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 376.6016146997436 136.25127020980653 L 363.26403848203654 68.98908915200423  346.97836002695504 39.87425839334185  419.72124173432735 32.080969112106914  515.009586944054 85.31610009341068  L 376.6016146997436 136.25127020980653  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 587.8941729320284 381.16953527619995 L 598.4332489638023 441.2347992470302  531.5948012965639 239.9358108086643  508.9940999595333 196.54149424999022  651.6473102312656 252.05944286770796  L 587.8941729320284 381.16953527619995  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 180.19784202986023 476.20716622200587 L 60.1458935007479 462.4055846090191  139.91567845894264 432.63088305665383  168.10422113053744 367.5287290401826  170.82432709549101 424.12759314628255  L 180.19784202986023 476.20716622200587  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 513.4695243004601 58.27565930785721 L 515.009586944054 85.31610009341068  411.50092110191343 99.20771169943137  363.26403848203654 68.98908915200423  346.97836002695504 39.87425839334185  L 513.4695243004601 58.27565930785721  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 644.7365958943701 495.90665247993417 L 620.6588513002441 496.46740128702794  410.806821316851 426.13648312581256  587.8941729320284 381.16953527619995  598.4332489638023 441.2347992470302  L 644.7365958943701 495.90665247993417  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 692.0649627814689 84.70625232345857 L 677.1228552755822 187.06490188742774  508.9940999595333 196.54149424999022  515.009586944054 85.31610009341068  513.4695243004601 58.27565930785721  L 692.0649627814689 84.70625232345857  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 170.82432709549101 424.12759314628255 L 137.3932050770257 452.4515359051873  139.91567845894264 432.63088305665383  157.01239774471787 353.91570210920906  135.7237512848261 270.9760737369015  L 170.82432709549101 424.12759314628255  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 644.7365958943701 495.90665247993417 L 620.6588513002441 496.46740128702794  516.4297110709284 487.2435032993305  576.3445053569972 321.7319817182793  587.8941729320284 381.16953527619995  L 644.7365958943701 495.90665247993417  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 651.6473102312656 252.05944286770796 L 576.3445053569972 321.7319817182793  531.5948012965639 239.9358108086643  574.0085276441675 74.33441963954738  692.0649627814689 84.70625232345857  L 651.6473102312656 252.05944286770796  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 620.6588513002441 496.46740128702794 L 516.4297110709284 487.2435032993305  598.4332489638023 441.2347992470302  587.8941729320284 381.16953527619995  576.3445053569972 321.7319817182793  L 620.6588513002441 496.46740128702794  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path><path d=" M 274.08085613623757 214.8638483034954 L 158.41307737573953 184.0085334581247  346.97836002695504 39.87425839334185  363.26403848203654 68.98908915200423  251.14930038479588 105.89291462680364  L 274.08085613623757 214.8638483034954  Z" stroke="rgba(255,255,255,.01)" stroke-width="0px" fill="rgba(255,255,255,.01)"></path></g><g id="points"></g></g></svg></div>
+
+                <div class="row_h1">
+                    <div>
+                        <h1>Антикорупційний портал</h1>
+                        <div class="slog">
+                            <p>УПОВНОВАЖЕНИХ ПІДРОЗДІЛІВ/ОСІБ</p>
+                            <p>УКРАЇНИ</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main_menu">
+            <ul>
+                <li><a href="risks/" title="Каталог корупційних ризиків">Каталог корупційних ризиків</a></li>
+                <li><a href="efektyvnist-upovnovazhenyh/" title="Ефективність уповноважених">Ефективність уповноважених</a></li>
+                <li><a href="https://wiki.nazk.gov.ua/category/organizatsiya-roboty-upovnovazhenyh/" rel="nofollow" target="blank_" title="Методичні рекомендації">Методичні рекомендації</a></li>         
+            </ul>
+            <ul>
+                <li class="disabled"><div style="overflow:hidden;position: relative;">
+                    <a href="#" title="Антикорупційні програми">Антикорупційні програми</a>
+                    <a class="disabled_text">В розробці</a>
+                    </div>
+                </li>
+                <li><a href="map/" title="Антикорупційна мапа">Антикорупційна мапа</a></li>
+                <li class="disabled"><div style="overflow:hidden;position: relative;">
+                <a href="#" title="Онлайн-навчання" rel="nofollow" >Онлайн-навчання</a>
+                <a class="disabled_text">В розробці</a>
+                </div>
+                </li>
+            </ul>
+        </div>
+
+        
+        <section class="search_section">
+            <div class="container">
+                <div class="search_block">
+                    <!-- <img src="images/site/index/search_img1.jpg" alt="" class="search_img1"> -->
+                    <div>
+                    <h2>УПОВНОВАЖЕНІ ПІДРОЗДІЛИ/ОСОБИ</h2>
+                    <div class="title">Це команда професіоналів  <br>у сфері антикорупції</div>
+                    <form class="s_block_right">
+                        <div>
+                            <div class="search_form">
+
+                                <input type="search" name="search" autocomplete="off" placeholder="Швидкий пошук уповноваженого">
+                                <button class="tooltip" onclick="return false;">Шукати<span class="tooltiptext"></span></button>
+                                <div id="doc_result" class="input-block-dropdown"></div>
+                            </div>
+                            <a href="/efektyvnist-upovnovazhenyh/" class="button ">Весь перелік</a>
+                        </div>
+                        <!-- <img src="images/site/index/search_img2.jpg" alt="" class="search_img2"> -->
+                    </form>
+                    </div>
+                    <style>
+                    :root{--line:#c8effe}
+                    path.line{stroke:var(--line);stroke-width:7px;z-index:-2!important}
+                    .block1,.block2,.block3{width:20px;height:20px;background:#c8effe;position:absolute;border:2px solid var(--line);transform:translate(0,0);border-radius:50%;z-index:-1;top:0}
+                    .block1{offset-path:path('M315.5 77L315.5 190L315.5 303');-webkit-animation:move 3000ms infinite alternate ease-in-out;animation:move 3000ms infinite alternate ease-in-out;background:#98BCE5;stroke:#98BCE5}
+                    .block2{offset-path:path('M122 218L218 276.5L314 335');-webkit-animation:move 2500ms infinite alternate ease-in-out;animation:move 2500ms infinite alternate ease-in-out;background:#EE6161;stroke:#EE6161}
+                    .block3{offset-path:path('M303 77L212.5 131.5L122 186');-webkit-animation:move 2800ms infinite alternate ease-in-out;animation:move 2800ms infinite alternate ease-in-out;stroke:#ADE194}
+                    .pulse{transform:translate(5px,-20px)}
+                    @-webkit-keyframes move {
+                    0%{offset-distance:0}
+                    100%{offset-distance:100%}
+                    }
+                    @keyframes move {
+                    0%{offset-distance:0}
+                    100%{offset-distance:100%}
+                    }
+                    .network{
+                        padding-right: 8%;
+                    }
+                    .network svg path{z-index:10;position:relative}
+                    .network svg{
+                        width: 353px;
+                    }
+                    </style>
+                    <div class="network" style="position:relative;">
+                        
+                        <!-- <img src="images/site/network.svg" alt="Антикорупційний портал"> -->
+                        <svg width="404" height="394" viewBox="0 0 404 394" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="">
+                            <path class="line" d="M315.5 77L315.5 190L315.5 303" stroke="#C8EFFE" stroke-width="10"/>
+                            <path class="line" d="M122 218L218 276.5L314 335" stroke="#C8EFFE" stroke-width="10"/>
+                            <path class="line" d="M303 77L212.5 131.5L122 186" stroke="#C8EFFE" stroke-width="10"/>
+                            <circle class="block1" cx="25" cy="0" r="5" stroke="red" fill="transparent" stroke-width="9"/>
+                            <circle class="block2" cx="25" cy="0" r="5" stroke="red" fill="transparent" stroke-width="9"/>
+                            <circle class="block3" cx="25" cy="0" r="5" stroke="red" fill="transparent" stroke-width="9"/>
+                            <circle class="block1 pulse" cx="20" cy="20" fill="none" r="10" stroke="#383a36" stroke-width="2">
+                                <animate attributeName="r" from="5" to="18" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+                                <animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+                            </circle>
+                            <circle class="block2 pulse" cx="20" cy="20" fill="none" r="10" stroke="#383a36" stroke-width="2">
+                                <animate attributeName="r" from="5" to="18" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+                                <animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+                            </circle>
+                            <circle class="block3 pulse" cx="20" cy="20" fill="none" r="10" stroke="#383a36" stroke-width="2">
+                                <animate attributeName="r" from="5" to="18" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+                                <animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+                            </circle>
+
+                            <path d="M103.115 100.847C46.1744 100.847 0.00488281 145.873 0.00488281 201.404C0.00488281 238.813 20.9534 271.447 52.03 288.768L59.0334 285.039L147.35 283.788L154.072 288.839C185.22 271.538 206.224 238.866 206.224 201.404C206.224 145.873 160.063 100.847 103.115 100.847V100.847Z" fill="#98BCE5"/>
+                            <path d="M70.601 260.446C58.2488 243.866 50.9619 223.466 50.9619 201.404C50.9619 154.449 83.9726 115.008 128.592 103.945C120.442 101.924 111.905 100.847 103.11 100.847C46.1695 100.846 0 145.872 0 201.403C0 238.811 20.9468 271.444 52.0219 288.766L70.601 260.446Z" fill="#7BACDF"/>
+                            <path d="M103.116 278.193C146.603 278.193 181.857 243.812 181.857 201.401C181.857 158.99 146.603 124.608 103.116 124.608C59.6278 124.608 24.374 158.99 24.374 201.401C24.374 243.812 59.6278 278.193 103.116 278.193Z" fill="#5F99D7"/>
+                            <path d="M85.1418 126.629C50.3563 134.581 24.375 165.087 24.375 201.401C24.375 237.717 50.3587 268.224 85.1467 276.173C64.1649 257.767 50.9663 231.088 50.9663 201.398C50.9663 171.714 64.1625 145.036 85.1418 126.629V126.629Z" fill="#3C87D0"/>
+                            <path d="M153.686 265.365C153.686 259.828 151.16 254.576 146.79 251.035L117.833 227.587L111.839 221.595H94.3726L88.2254 227.587L59.2679 251.035C54.906 254.576 52.3717 259.828 52.3717 265.365L52.0225 288.766C67.082 297.155 84.5295 301.955 103.114 301.955C121.65 301.955 139.041 297.186 154.076 288.837L153.686 265.365Z" fill="#ADE194"/>
+                            <path d="M122.023 230.98L117.832 227.587L111.838 221.595H94.3717L88.2244 227.587L59.2669 251.035C54.905 254.576 52.3708 259.828 52.3708 265.365L52.0215 288.766C58.1338 292.17 64.645 294.972 71.4608 297.114L71.7946 274.751C71.7946 269.213 74.3289 263.961 78.6908 260.42L86.3602 254.21C89.6239 251.567 93.916 250.338 98.0862 251.092C99.6912 251.382 101.344 251.534 103.032 251.534C110.252 251.534 117.031 248.791 122.109 243.824C124.551 241.443 126.463 238.676 127.8 235.659L122.023 230.98Z" fill="#97DA7B"/>
+                            <path d="M117.833 201.334V225.218C117.833 226.018 117.768 226.795 117.638 227.555C117.126 230.605 115.64 233.33 113.495 235.421C110.823 238.035 107.119 239.651 103.033 239.651C95.6741 239.651 89.5658 234.415 88.4205 227.555C88.2906 226.795 88.2256 226.018 88.2256 225.218V201.255L88.5343 200.606C92.9611 202.626 97.8997 203.758 103.115 203.758C108.264 203.758 113.146 202.657 117.524 200.685L117.833 201.334Z" fill="#FED2A4"/>
+                            <path d="M123.608 131.537H84.4156L72.2559 127.639C70.4933 127.077 68.6738 128.36 68.6738 130.174V163.049L80.3738 175.263H131.177L137.563 163.049V145.146C137.563 137.628 131.316 131.537 123.608 131.537Z" fill="#A79BA7"/>
+                            <path d="M88.2252 145.445C88.2252 143.631 90.0447 142.347 91.8073 142.91L103.967 146.807H137.563V145.146C137.563 137.628 131.316 131.537 123.608 131.537H84.4156L72.2559 127.639C70.4933 127.077 68.6738 128.36 68.6738 130.174V163.049L80.3738 175.263H88.2252V145.445Z" fill="#918291"/>
+                            <path d="M137.563 163.049V184.43C137.563 197.96 129.35 209.628 117.524 214.944C113.146 216.916 108.264 218.017 103.114 218.017C97.8993 218.017 92.9607 216.885 88.5339 214.865C76.7965 209.51 68.6738 197.896 68.6738 184.43V163.049H137.563Z" fill="#FED2A4"/>
+                            <path d="M108.085 214.865C96.3479 209.51 88.2252 197.896 88.2252 184.43V163.049H68.6738V184.43C68.6738 197.896 76.7965 209.51 88.5339 214.865C92.9607 216.885 97.8993 218.017 103.114 218.017C106.514 218.017 109.793 217.529 112.891 216.635C111.234 216.157 109.627 215.569 108.085 214.865Z" fill="#FFBD86"/>
+                            <path d="M325.044 0.351746C281.442 0.351746 246.1 34.8189 246.1 77.3502C246.1 102.974 258.936 125.668 278.676 139.663L285.637 133.313L363.455 134.492L371.404 139.675C391.154 125.681 403.998 102.981 403.998 77.351C403.997 34.8188 368.655 0.351746 325.044 0.351746V0.351746Z" fill="#98BCE5"/>
+                            <path d="M300.683 114.222C294.544 103.271 291.044 90.7124 291.044 77.3502C291.044 42.4355 314.863 12.9614 347.515 3.52199C340.39 1.46236 332.847 0.351746 325.037 0.351746C281.435 0.351746 246.093 34.8189 246.093 77.3502C246.093 102.974 258.928 125.668 278.668 139.662L300.683 114.222Z" fill="#7BACDF"/>
+                            <path d="M325.041 130.57C294.948 130.57 270.465 106.694 270.465 77.3446C270.465 47.9918 294.948 24.1111 325.041 24.1111C355.139 24.1111 379.626 47.9918 379.626 77.3446C379.627 106.694 355.14 130.57 325.041 130.57Z" fill="#5F99D7"/>
+                            <path d="M311.349 128.873C298.734 115.228 291.048 97.1654 291.048 77.3447C291.048 57.5199 298.734 39.4538 311.35 25.8088C287.861 31.7492 270.465 52.6022 270.465 77.3447C270.466 102.083 287.861 122.933 311.349 128.873Z" fill="#3C87D0"/>
+                            <path d="M325.042 90.4233C350.629 90.4233 371.366 110.647 371.366 135.6L371.406 139.671C358.263 149.217 342.7 154.335 325.042 154.335C307.392 154.335 291.82 149.207 278.669 139.662L278.718 135.6C278.718 123.124 283.901 111.828 292.292 103.652C300.674 95.4773 312.249 90.4233 325.042 90.4233V90.4233Z" fill="#F37C7C"/>
+                            <path d="M325.042 24.1111C343.822 24.1111 359.044 38.9563 359.044 57.2633C359.044 75.5781 343.822 90.4233 325.042 90.4233C306.271 90.4233 291.049 75.5781 291.049 57.2633C291.049 38.9563 306.271 24.1111 325.042 24.1111V24.1111Z" fill="#FFE5C2"/>
+                            <path d="M296.858 147.218C296.858 134.741 302.04 123.445 310.431 115.27C318.814 107.094 330.389 102.04 343.182 102.04C348.664 102.04 353.932 102.97 358.813 104.675C350.364 95.9043 338.358 90.4233 325.042 90.4233C312.249 90.4233 300.674 95.4773 292.292 103.652C283.901 111.828 278.718 123.124 278.718 135.6L278.669 139.662C284.289 143.741 290.358 147.012 296.835 149.423L296.858 147.218Z" fill="#EE6161"/>
+                            <path d="M314.701 56.384C314.701 42.5844 323.372 30.7534 335.671 25.7628C332.332 24.6942 328.748 24.1111 325.042 24.1111C306.271 24.1111 291.049 38.9563 291.049 57.2633C291.049 75.5781 306.271 90.4233 325.042 90.4233C329.667 90.4233 334.075 89.5202 338.093 87.8899C324.514 83.5433 314.701 71.085 314.701 56.384V56.384Z" fill="#FED2A4"/>
+                            <path d="M325.047 239.653C281.444 239.653 246.103 274.128 246.103 316.651C246.103 342.299 258.962 365.013 278.732 379.007L286.258 375.867L366.655 377.456L371.366 379.008C391.14 365.015 404 342.299 404 316.651C404 274.128 368.658 239.653 325.047 239.653V239.653Z" fill="#98BCE5"/>
+                            <path d="M298.913 353.654C292.732 342.673 289.209 330.068 289.209 316.657C289.209 281.422 313.474 251.714 346.597 242.565C339.743 240.672 332.512 239.658 325.036 239.658C281.434 239.658 246.092 274.133 246.092 316.657C246.092 342.302 258.949 365.016 278.717 379.009L298.913 353.654Z" fill="#7BACDF"/>
+                            <path d="M325.041 369.884C294.948 369.884 270.465 346.003 270.465 316.651C270.465 287.298 294.948 263.417 325.041 263.417C355.139 263.417 379.626 287.298 379.626 316.651C379.626 346.003 355.14 369.884 325.041 369.884Z" fill="#5F99D7"/>
+                            <path d="M308.899 367.505C296.652 353.94 289.214 336.145 289.214 316.65C289.214 297.155 296.628 279.367 308.876 265.802C286.638 272.531 270.466 292.776 270.466 316.65C270.466 340.523 286.662 360.776 308.899 367.505V367.505Z" fill="#3C87D0"/>
+                            <path d="M325.045 329.736C343.822 329.736 359.044 314.89 359.044 296.578C359.044 278.265 343.822 263.42 325.045 263.42C306.268 263.42 291.046 278.265 291.046 296.578C291.046 314.89 306.268 329.736 325.045 329.736Z" fill="#FFE5C2"/>
+                            <path d="M311.906 296.578C311.906 281.815 321.822 269.311 335.496 265.016C332.209 263.983 328.685 263.42 325.045 263.42C306.268 263.42 291.046 278.265 291.046 296.578C291.046 314.89 306.268 329.736 325.045 329.736C328.685 329.736 332.208 329.172 335.496 328.14C321.823 323.845 311.906 311.341 311.906 296.578V296.578Z" fill="#FED2A4"/>
+                            <path d="M371.366 379.009C358.362 388.222 342.352 393.648 325.043 393.648C307.733 393.648 291.731 388.214 278.719 379.009V374.914C278.719 362.437 283.901 351.141 292.292 342.966C300.674 334.79 312.249 329.736 325.043 329.736C350.629 329.736 371.366 349.96 371.366 374.914V379.009Z" fill="#FEE97D"/>
+                            <path d="M296.35 386.149C296.35 373.672 301.532 362.376 309.923 354.201C318.306 346.026 329.88 340.972 342.674 340.972C348.23 340.972 353.577 341.931 358.513 343.679C350.081 335.094 338.196 329.736 325.043 329.736C312.249 329.736 300.674 334.79 292.292 342.966C283.901 351.141 278.719 362.437 278.719 374.914V379.009C284.119 382.829 290.05 386.006 296.36 388.408L296.35 386.149Z" fill="#FEE45A"/>
+                            </g>
+                            
+                            <defs>
+                            <clipPath id="clip0">
+                            <rect width="404" height="394" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            
+                        </svg>
+
+                        
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <section class="counters">
+        <div class="container">
+            <div class="row_h2">
+            <h2 id="ac_number">АНТИКОРУПЦІЯ У ЦИФРАХ</h2>
+            </div>
+
+            <div class="help">дані з  01.01.2020</div>
+            <div class="count_items">
+                <div class="count_item">
+                    <div class="title">працівників уповноважених <br>підрозділів (осіб)</div>
+                    <div class="count">9008</div>
+                </div>
+                <div class="count_item">
+                    <div class="title">проведено навчання для<br>уповноважених</div>
+                    <div class="count">2575</div>
+                </div>
+                <div class="count_item">
+                    <div class="title">оцінено ефективність<br>уповноважених</div>
+                    <div class="count">3584</div>
+                </div>
+                <div class="count_item">
+                    <div class="title">погоджено антикорупційних <br>програм органів влади</div>
+                    <div class="count">75</div>
+                </div>
+            </div>
+            <!-- <div class="buttons">
+            <a href="" class="button">Більше даних</a>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="tutorial">
+        <div class="container">
+            <div class="tutorial_block">
+                <div class="title">Навчальні матеріали</div>
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="description">
+                                Клікай сюди, щоб дізнатись про те, хто такі викривачі або як повідомити про корупцію чи отримати захист чи винагороду
+                            </div>
+                            <div class="buttons">
+                                <a href="https://study.ed-era.com/uk/courses/course/?_ga=2.191725922.918183006.1629287331-1536429771.1629287331#!427" target="_blank" rel="nofollow" class="button_white">Онлайн-курс "Впливай - викривай!"</a>                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="description">
+                                Освітній серіал про викривачів корупції та інші інструменти для запобігання та подолання корупції в державі<br>
+                            </div>
+                            <div class="buttons">
+                                <a href="https://osvita.diia.gov.ua/courses/vikrivac-u-zakoni" target="_blank" rel="nofollow" class="button_white">Викривач у законі</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="description">На Youtube-каналі НАЗК розміщено вебінари та інші інформаційні матеріали для навчання уповноважених</div>
+                            <div class="buttons">
+                                <a href="https://www.youtube.com/playlist?list=PLQCyS3bbFoFdFqgXhzbMsC-K1kqEt6zVM" target="_blank" rel="nofollow" class="button_white">Youtube-канал НАЗК</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        /*autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+        },*/
+        centeredSlides: true,
+        pagination: {
+          el: ".swiper-pagination",
+          
+          clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '"><span>' + (index + 1) + "</span></span>";
+          },
+        },
+      });
+    </script>
+            </div>      
+        </div>
+
+    </section>
+
+    <section class="last_news container">
+        <div class="row_top d-flex">
+            <h2>ІНФОРМАЦІЯ ДЛЯ УПОВНОВАЖЕНОГО</h2>
+            </div>
+        <div class="row_slide">
+
+            
+<!-- ***Swiper slider widget id: w0-swiper*** -->
+<div id="w0-swiper" class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide"><a href="/news/onovleno-poradok-nadanna-zgodi-na-zvilnenna-upovnovazenogo/" title="Оновлено Порядок надання згоди на звільнення уповноваженого " class="item">
+                    <div class="image"><div class="image_ef"><div class="image_h"><img src="https://antycorportal.nazk.gov.ua/images/blog/blogPost/slider_5.jpg" alt="Оновлено Порядок надання згоди на звільнення уповноваженого "></div></div></div>
+                    <div class="name">Оновлено Порядок надання згоди на звільнення уповноваженого </div>
+                    <div class="date">17 серпня 2021</div>
+                </a></div>
+<div class="swiper-slide"><a href="/news/nazk-doslidilo-umovi-zabezpecenna-dobrocesnosti/" title="НАЗК дослідило умови забезпечення доброчесності " class="item">
+                    <div class="image"><div class="image_ef"><div class="image_h"><img src="https://antycorportal.nazk.gov.ua/images/blog/blogPost/slider_4.jpg" alt="НАЗК дослідило умови забезпечення доброчесності "></div></div></div>
+                    <div class="name">НАЗК дослідило умови забезпечення доброчесності </div>
+                    <div class="date">17 серпня 2021</div>
+                </a></div>
+<div class="swiper-slide"><a href="/news/nazk-provelo-doslidzenna-efektivnosti-antikorupcijnoi-komunikacii/" title="НАЗК провело дослідження ефективності антикорупційної комунікації" class="item">
+                    <div class="image"><div class="image_ef"><div class="image_h"><img src="https://antycorportal.nazk.gov.ua/images/blog/blogPost/slider_3.jpg" alt="НАЗК провело дослідження ефективності антикорупційної комунікації"></div></div></div>
+                    <div class="name">НАЗК провело дослідження ефективності антикорупційної комунікації</div>
+                    <div class="date">17 серпня 2021</div>
+                </a></div>
+<div class="swiper-slide"><a href="/news/zmini-u-strokah-zvituvanna-upovnovazenih/" title="Зміни у строках звітування уповноважених" class="item">
+                    <div class="image"><div class="image_ef"><div class="image_h"><img src="https://antycorportal.nazk.gov.ua/images/blog/blogPost/slider_2.jpg" alt="Зміни у строках звітування уповноважених"></div></div></div>
+                    <div class="name">Зміни у строках звітування уповноважених</div>
+                    <div class="date">22 липня 2021</div>
+                </a></div>
+<div class="swiper-slide"><a href="/news/rozrobleno-metodicnu-nastanovu-iz-vizuvanna-aktiv/" title="Розроблено методичну настанову із візування актів" class="item">
+                    <div class="image"><div class="image_ef"><div class="image_h"><img src="https://antycorportal.nazk.gov.ua/images/blog/blogPost/slider_1.jpg" alt="Розроблено методичну настанову із візування актів"></div></div></div>
+                    <div class="name">Розроблено методичну настанову із візування актів</div>
+                    <div class="date">21 липня 2021</div>
+                </a></div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev" style="display: none;"></div>
+<div class="swiper-button-next" style="display: none;"></div>
+</div>
+<!-- ///Swiper slider widget id: w0-swiper/// -->        </div>
+        <a href="/blog/?category_id=1" class="button">Більше інформації</a>
+    </section>    
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+
+        var $element = $('.counters');
+            let counter_ = 0;
+            start_counter = false;
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop() + $(window).height();
+            //Если скролл до конца елемента
+            var offset = $element.offset().top + $element.height();
+            //Если скролл до начала елемента
+            //var offset = $element.offset().top
+        
+            if (scroll > offset && counter_ == 0) {
+                counter_ = 1;
+                $('.count_item .count').each(function () {
+                var $this = $(this);
+                jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+                    duration: 1700,
+                    easing: 'swing',
+                    step: function () {
+                        $this.text(Math.ceil(this.Counter));
+                    }
+                });
+            });
+            }
+        });
+
+        $('input[name="search"]').on("input",function(){
+            
+          1<=$(this).val().length?$(".input-block-dropdown").addClass("active"):$(".input-block-dropdown").removeClass("active")
+        }).bind('keydown', function(e) {
+            if (e.keyCode == 13) {
+                ttolltip();
+                return false;
+            }
+        });
+        $('.tooltip').on('click',function(){
+            ttolltip();
+        });
+        function ttolltip(){
+            if($('a.input-block-dropdown-el').length){
+                showtolltip();
+                $('.tooltip span').html('Оберіть уповноваженого з випадаючого списку');
+            } else {
+                $('.tooltip span').html('Введіть пошуковий запит');
+                showtolltip();
+            }
+        }
+        
+        function showtolltip(){
+            $('.tooltip').addClass('active');
+            setTimeout(function(){
+                hidetolltip();
+            }, 3000);
+        }
+        function hidetolltip(){
+            $('.tooltip').removeClass('active');
+        }
+        $(document).on('input', '[name="search"]', function(e) {
+            
+            if($(this).val().length>2){
+              node = this;
+              data = $('.s_block_right').serialize();
+
+              $.ajax({
+                  url: '/efektyvnist-upovnovazhenyh/getuser/',
+                  type: 'post',
+                  data: data,
+                  dataType: 'json',
+                  beforeSend: function(){},
+                  complete: function(){},
+                  success: function(json) {
+                      console.log(json);
+                    if(json['html']){
+                      $('#doc_result').html(json['html']);
+                    }
+                  },
+                  error: function(xhr, ajaxOptions, thrownError) {
+                      console.log(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                  }
+              });
+
+            } else {
+
+              $('#doc_result').html('');
+
+            }
+        })
+      });
+</script>
+<script>
+(function () {
+function a(a, b, c, d) {
+    function e(a, b) {
+        a = a || 0, !b || (p.innerHTML = '');
+        var c = v[a];
+        v.forEach(function (a) {
+            a.distance = i(c, a)
+        });
+        var e = v.map(function (b, c) {
+            if (c !== a) return b
+        });
+        e.sort(function (c, a) {
+            return c.distance > a.distance ? 1 : -1
+        }), e = e.filter(function (a, b) {
+            if (b < r) return a.angle = l(a, c), a
+        }), e.sort(function (c, a) {
+            return c.angle > a.angle ? 1 : -1
+        });
+        for (var f = ' ', g = 0; g < e.length; g++) f += 0 === g ? 'M ' : 1 === g ? 'L ' : ' ', f += e[g].X + ' ' + e[g].Y + ' ';
+        f += ' L ' + e[0].X + ' ' + e[0].Y + ' ';
+        var h = f + ' Z',
+            j = document.createElementNS(u, 'path');
+        j.setAttribute('d', h), j.setAttribute('stroke', 'rgba(' + y + ',' + z + ',' + A + ',.01)'), 
+        j.setAttribute('stroke-width', '0px'), j.setAttribute('fill', 'rgba(' + y + ',' + z + ',' + A + ',.04)'), p.appendChild(j)
+    }
+
+    function f() {
+        n.setAttribute('width', w), n.setAttribute('height', x), t.setAttribute('width', w), t.setAttribute('height', x), n.setAttribute('viewbox', '0 0 ' + w + ' ' + x)
+    }
+
+    function g() {
+        v = [];
+        for (var a = 0; a < q; a++) v.push(new k(parseInt(Math.random() * (w - 20) + 10), parseInt(Math.random() * (x - 20) + 10), a));
+        o.innerHTML = '', p.innerHTML = '', h(), j()
+    }
+
+    function h() {
+        p.innerHTML = '';
+        for (var a = 0; a < v.length; a++) e(a)
+    }
+
+    function j() {
+        for (var a = 0; a < v.length; a++) v[a].move(s);
+        h(), requestAnimationFrame(j)
+    }
+
+    function k(a, b, c) {
+        return {
+            move: function b(a) {
+                this.X += this.dx * a, this.Y += this.dy * a, (0 > this.X || this.X > w) && (this.X -= this.dx * a, this.dx = -this.dx), (0 > this.Y || this.Y > x) && (this.Y -= this.dy * a, this.dy = -this.dy)
+            },
+            X: a,
+            Y: b,
+            distance: -1,
+            id: c,
+            angle: -1,
+            dx: Math.random() - Math.random(),
+            dy: Math.random() - Math.random()
+        }
+    }
+
+    function i(a, b) {
+        var c = 0,
+            d = 0;
+        return c = b.X - a.X, c *= c, d = b.Y - a.Y, d *= d, Math.sqrt(c + d)
+    }
+
+    function l(a, b) {
+        var c = a.Y - b.Y,
+            d = a.X - b.X,
+            e = Math.atan2(c, d),
+            f = 180 * e / Math.PI % 360;
+        return f = 0 > f ? 360 + f : f, f
+    }
+    var m = a,
+        n = a.querySelector('svg'),
+        o = n.querySelector('#points'),
+        p = n.querySelector('#polygons'),
+        q = b,
+        r = c,
+        s = .7,
+        t = n.querySelector('#bg'),
+        u = n.namespaceURI,
+        v = [],
+        w = m.clientWidth,
+        x = m.clientHeight,
+        y = d[0] ? d[0] : 255,
+        z = d[1] ? d[1] : 255,
+        A = d[2] ? d[2] : 255;
+    f(), window.onresize = f, g()
+}
+var b = document.querySelectorAll('.polygon');
+'undefined' != typeof b && null != b && b.forEach(function (b) {
+    var c = b.dataset.point,
+        d = b.dataset.edges,
+        e = void 0;
+    e = b.dataset.color ? b.dataset.color.split(',') : [], b.innerHTML = '<svg fill="transparent"><rect id="bg"/><g id="main"><g id="polygons"></g><g id="points"></g></g></svg>', new a(b, c, d, e)
+})
+})();
+</script>
+
+<div class="tn-atom__sbs-anim-wrapper" style="display:table; width:inherit; height:inherit;"><div class="tn-atom" style="backface-visibility: hidden;"> </div></div>
+
+<style>
+.t396 .tn-atom {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}  
+#rec150818764 .tn-elem[data-elem-id="1576863410202"] .tn-atom {
+    border-radius: 3000px;
+    background-color: #3dad68;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}  
+
+#rec150818764 [data-elem-id="1576863410202"].t-sbs-anim_started .tn-atom__sbs-anim-wrapper {
+    animation: sbs-anim-rec150818764-1576863410202 3.2s infinite linear;
+    backface-visibility: hidden;
+}
+
+</style></section>
+<style>
+    .footer{
+        
+        /*margin: 0 auto;*/
+        /*margin-top:35px;*/
+        background: radial-gradient(50% 2237.74% at 50% 50%, #1E5F94 0%, #234260 100%);
+        padding: 43px 0;
+        color:#fff;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer .row_map{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .footer .social {
+        background: none;
+        color:#fff;
+        display: flex;
+        align-items: center;
+    }
+    .footer .social .link a{margin-left:17px;display:inline-block}
+    .footer .map{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 50px;
+    }
+    .footer .row_p{
+        border-top: 1px solid #FFFFFF;
+        margin-top:32px;
+        padding-top:28px;
+        text-align: center;
+    }
+</style>
+<footer class="footer">
+    <div class="container">
+       <div class="row_map">
+           <div class="col1">
+               <div class="map">Мапа порталу</div>
+               <div class="address">
+                   Україна, м. Київ,  бульвар Дружби Народів, 28, 01103; <br>e-mail: <b>info@nazk.gov.ua</b>
+               </div>
+           </div>
+           <div class="social">
+               <div class="title">Офіційні сторінки НАЗК:</div>
+               <div class="link">
+                   <a href="" target="blank_" rel="nofollow"><img src="https://antycorportal.nazk.gov.ua/images/site/footer/facebook.svg" alt=""></a>
+                   <a href="" target="blank_" rel="nofollow"><img src="https://antycorportal.nazk.gov.ua/images/site/footer/youtube.svg" alt=""></a>
+                   <a href="" target="blank_" rel="nofollow"><img src="https://antycorportal.nazk.gov.ua/images/site/footer/twitter.svg" alt=""></a>
+                   <a href="" target="blank_" rel="nofollow"><img src="https://antycorportal.nazk.gov.ua/images/site/footer/telegram.svg" alt=""></a>
+               </div>
+           </div>
+       </div>
+       <div class="row_p">Весь контент доступний за ліцензією <b>Creative Commons Attribution 4.0 International license</b>, <br>якщо не зазначено інше</div>
+    </div>
+</footer>
+<div class="scrolltop"><svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9 2.82843L16.0711 9.89949L17.4853 8.48528L9 0L8.29289 0.707107L7.58579 1.41421L0.514719 8.48528L1.92893 9.89949L9 2.82843Z" fill="#2B4261"></path></svg>
+    </div>
+
+<div class="widget">
+    <div class="widget__popup">
+        <div class="bg">
+            <div class="callback">
+                <div class="title">контакт-центр</div>
+                <a class="tel" href="tel:+380442000694" title="контакт-центр">+38 (044) 200-06-94</a>
+                <div class="graph">працює з 9:00 до 18:00</div>
+            </div>
+            <div class="triangle"></div>
+        </div>
+
+    </div>
+    <div class="widget__label">
+        <span>контакт-центр</span>
+    </div>
+    <div class="widget__icon">
+        <img src="https://nazk.gov.ua/wp-content/themes/nazkn/assets/img/main/man2.jpg" alt="контакт-центр">
+        <div class="pulsation"></div>
+        <div class="pulsation"></div>
+    </div>
+</div>
+<script src="/assets/9b1fbc65/swiper-bundle.js"></script>
+<script src="/assets/45d80230/jquery.js"></script>
+<script src="/assets/69802c39/yii.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.js"></script>
+<script src="/js/common.js?v1"></script>
+<script>var mySwiper = new Swiper("#w0-swiper",{"loop":true,"pagination":{"el":".swiper-pagination","clickable":true},"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev"},"slidesPerView":3,"spaceBetween":30,"centeredSlides":true,"scrollbar":{"el":".swiper-scrollbar","hide":true}})</script></body>
+</html>

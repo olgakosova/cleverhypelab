@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cross-bg {
+  background: url("../images/elements/cross_background.png");
+  width: 30rem;
+  height: 30rem;
+  right: 10rem;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+body {
+  border-top:5px solid #F7EB61;
+  background: black;
+  overflow-x: hidden;
+  position: relative;
+}
+main {
+  position: absolute;
+}
+
+#logo img {
+  width: 5rem;
+  height: 5rem;
+}
+img {
+  filter: grayscale(100%);
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding: 2rem 2rem;
+  z-index: 2;
+  position: relative;
+}
+
+.explore {
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 1rem;
+  text-decoration: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+.display {
+display: none;
+}
+
+body.hide {
+  overflow: hidden;
+}
+
+/* Other Pages */
+.fashion1,
+.fashion2,
+.fashion3 {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  color: white;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+.fashion-img {
+  height: 70vh;
+  flex-basis: 30rem;
+}
+.fashion-text {
+  flex: 1;
+  position: relative;
+  flex-basis: 25rem;
+}
+.fashion-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fashion-text h2 {
+  font-family: din-condensed, sans-serif;
+  font-weight: 300;
+  font-size: 6rem;
+  padding: 3rem 0rem;
+  color: #F7EB61;
+
+}
+
+.fashion-text p {
+  font-family: Ebrima;
+  font-size: 2rem;
+  padding: 2rem 2rem 0rem 0rem;
+  margin-bottom: 10rem;
+}
+.fashion-nr {
+  font-size: 15rem;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  color: #F7EB61;
+  opacity: 0.4;
+}
+
+.swipe {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+}
+.swipe1 {
+  background: rgb(167, 110, 231);
+  z-index: 5;
+}
+.swipe2 {
+  background: rgb(86, 124, 228);
+  z-index: 4;
+}
+.swipe3 {
+  background: rgb(255, 139, 93);
+  z-index: 3;
+}
+
+@media screen and (max-width: 1500px) {
+  .hero-img {
+    height: 50vh;
+  }
+  .fashion-text h1 {
+    font-size: 2rem;
+    padding: 1rem 0rem;
+  }
+  .fashion-text p {
+    font-size: 1.2rem;
+  }
+  .fashion-img img {
+    height: 50vh;
+    object-position: top;
+  }
+
+
+@media screen and (max-width: 1024px) {
+  main {
+    width: 100%;
+    margin: 0;
+  }
+  .slide {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .hero-desc {
+    padding: 0;
+  }
+  .hero-img {
+    padding-top: 4rem;
+  }
+  .hero-desc h2 {
+    font-size: 1.6rem;
+    padding: 1rem 0rem;
+  }
+  .hero-desc p {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .explore {
+    width: 60%;
+    margin: auto;
+  }
+  .detail-slide {
+    width: 100%;
+    text-align: center;
+  }
+  .fashion-text p {
+    margin-bottom: 5rem;
+    padding: 0;
+  }
+  .fastion-text h1 {
+    margin: 2rem 0rem;
+  }
+
+  .fashion-nr {
+    font-size: 8rem;
+  }
+}
+@media only screen  
+and (max-width: 575px) {
+  #title-projects {
+    font-size: 2rem;
+  }
+  .cross-bg {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+  #title-projects {
+    font-family: din-condensed, sans-serif;
+    color: white;
+    top: 3rem; 
+    right: 4rem;
+    text-align: right;
+    font-size: 3rem;
+    position: relative;
+    z-index: 5;
+  }
+  .slider-one {
+    background:black;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 150%; 
+    transform: translateX(100%);
+}
+
+.slider-two {
+    background:  #F7EB61;; 
+    position: fixed;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 100%; 
+    transform: translateX(100%);
+}
+
+  @font-face {
+    font-family: Ebrima; 
+    src: url("../fonts/ebrima.ttf")
+    format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}

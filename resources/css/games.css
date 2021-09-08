@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+html {
+    font-size: 16px;
+    height: 100%;
+}
+body {
+    height: 100%;
+    
+}
+.line-black {
+    position: fixed;
+    top: 60%;
+    width: 70%;
+    height: .5rem;
+    background-color: black ;
+}
+.container-change {
+    position: fixed;
+    top: 67%;
+    left: 30%;
+}
+
+h1 {
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+    font-size: 10rem;
+    font-family: din-condensed, sans-serif;
+    color: #820d26;
+    line-height: .8;
+}
+.country-name {
+    top: 3rem;
+    left: 10%;
+    position: absolute;
+    font-size: 10rem;
+    color:grey;
+    opacity: .5;
+}
+.contain {
+    width: 100%;
+    display: inline-flex;
+}
+.flex-item {
+    height: 100vh; 
+}
+#block-1{
+    width: 10%;
+    padding-left: 2rem;
+    display: inline-flex;
+}  
+#block-2{
+width: 70%;
+background: url("../images/lines-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#block-3{
+    width: 20%;
+    display: inline-flex;
+    height: 100vh;
+    }
+.line {
+    height: 100vh;
+}
+ .line-1{
+    width: 5vh;
+}
+.line-2{
+    width: 3vh;
+}
+.line-4 {
+    width: 11%;
+}
+.line-5 {
+    width: 11%;
+}
+.line-6 {
+    width: 8%;
+    background-color: #505051;
+}
+.line-7 {
+    width: 70%;
+}
+
+.yellow {
+    background-color: #f4ba14;
+}
+.green{
+    background-color: #057212;
+}
+.blue {
+    background-color: #104e8c;
+}
+.rose {
+    background-color: #bf3a4a;
+}
+.darkred{
+    background-color: #820d26;
+}
+.dots {
+    display: none;
+    background: url("../images/dots.png");
+    width: 8rem;
+    height: 10rem;
+    position: absolute;
+    top: 3rem;
+    left: 45%;
+}
+.waves {
+    display: none;
+    background: url("../images/wave.png");
+    width: 15rem;
+    height: 10rem;
+    left: 35%;
+    top: 10%;
+    position: relative;
+    transform: rotate(270deg);
+    z-index: 2;
+}
+#rio, #la {
+    font-size: 5rem !important;
+    width: 40rem !important;
+    left: 12rem;
+    top: 9rem;
+    display: inline;
+}
+#pekin {
+    left: 17rem;
+}
+.stamp {
+    background: url("../images/stamp.png");
+    width: 20rem;
+    height: 10rem;
+    position: relative;
+    top: 6.5rem;
+    z-index: 2;
+    display: none;
+}
+.dots, .waves, .stamp {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.photo-2020 {
+    background: url("../images/img-games/2020.jpg");
+    
+    }
+.photo {
+  
+    box-sizing: border-box;
+    height: 20rem;
+    left: -13rem;
+    width: 13rem;
+    z-index: 1;
+    top: -4rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: unset;
+}
+
+@font-face {
+    font-family: Ebrima; 
+    src: url("../fonts/ebrima.ttf")
+    format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+.hide-section {
+    display: none;
+}
+#menu-date {
+    position: absolute;
+    z-index: 3;
+}
+.medals {
+    height: 8rem;
+    top: 30px;
+    right: 300px;
+    position: fixed;
+    color: grey;
+}
+.number {
+    padding-left: .5rem;
+}
+.btn-light{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 4rem;
+    font-family: din-condensed, sans-serif;
+}
+.btn-light:hover{
+    background-color: white;
+    opacity: .3;
+}
+#menu-date {
+    overflow-y: scroll;
+    height: 100vh;
+    right: 2rem;
+}
+.row { 
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 10rem;
+    height: 3.5rem;
+}
+.golden {
+    background: url("../images/gold.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2rem;
+    height: 2rem;
+}
+.silver{
+    background: url("../images/silver.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2rem;
+    height: 2rem;
+}
+.bronze {
+    background: url("../images/bronze.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2rem;
+    height: 2rem;
+}
+ 
+
+h3 {
+    font-size: 3rem;
+    font-family: din-condensed, sans-serif;
+}
+.number {
+    display: inline-block;
+    font-size: 2rem;
+    font-family: din-condensed, sans-serif;
+}
+.box {
+position: absolute;
+z-index: -5;
+background-color: lightgrey;
+opacity: .4;
+height: 21rem; 
+width: 11rem;
+bottom: 0;
+
+}
+
+.photo-2016 {
+    background: url("../images/img-games/2016.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: unset;
+
+}
+.photo-2012 {
+    background: url("../images/img-games/2012.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: unset;
+
+}
+.photo-2008 {
+    background: url("../images/img-games/2008.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: unset;
+    background-repeat:no-repeat ;
+}
+.japan {
+    width: 20rem; 
+    height: 25rem;
+    background: url("../images/img-games/tokio.png");
+    background-size: contain;
+    background-position: center;
+    background-attachment: unset;
+    background-repeat:no-repeat ;
+    position: absolute;
+    top:0;
+    left: -qrem;
+    z-index: -1;
+}
+
+.photo-2004 {
+    background: url("../images/img-games/2004.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: unset;
+}
+.photo-2000 {
+    background: url("../images/img-games/2000.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: unset;
+    background-repeat:no-repeat ;
+}
+.photo-1996 {
+    background: url("../images/img-games/1996.png");
+    background-size: contain;
+    background-position: center;
+}
+.photo-1992 {
+    background: url("../images/img-games/1992.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: unset;
+}
+
+.photo-1988 {
+    background: url("../images/img-games/1988.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: unset;
+}
+.photo-1984 {
+    background: url("../images/img-games/1984.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+}
+.photo-1980 {
+    background: url("../images/img-games/1980.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: unset;
+}
+.photo-1976 {
+    background: url("../images/img-games/1976.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+}
+.photo-1972 {
+    background: url("../images/img-games/1972.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+}
+.photo-1968 {
+    background: url("../images/img-games/1968.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+}
+.photo-1964 {
+    background: url("../images/img-games/1964.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+}
+.photo-1960 {
+    background: url("../images/img-games/1960.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+}
+.photo-1956 {
+    background: url("../images/img-games/1956.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+}
+.photo-1952 {
+    background: url("../images/img-games/1952.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+}
+.photo-1944 {
+    background: url("../images/img-games/1944.jpg");
+    background-size: cover;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+.photo-1940 {
+    background: url("../images/img-games/1944.jpg");
+    background-size: cover;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+.photo-1936 {
+    background: url("../images/img-games/1936.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+.photo-1932 {
+    background: url("../images/img-games/1932.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+     background-repeat: no-repeat;
+}
+.photo-1928 {
+    background: url("../images/img-games/1928.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+}
+.photo-1924 {
+    background: url("../images/img-games/1924.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+.photo-1920 {
+    background: url("../images/img-games/1920.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+.photo-1916 {
+    background: url("../images/img-games/1916.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+.photo-1912 {
+    background: url("../images/img-games/1912.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+.photo-1908 {
+    background: url("../images/img-games/1908.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+.photo-1904 {
+    background: url("../images/img-games/1904.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+.photo-1900 {
+    background: url("../images/img-games/1944.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+.photo-1896 {
+    background: url("../images/img-games/1896.jpg");
+    background-size: contain;
+    background-position: left;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+}
+
+
+
