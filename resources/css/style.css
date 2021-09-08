@@ -1,0 +1,984 @@
+html {
+    font-size: 16px;
+}
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+/*TEXT*/
+h1, h2, h3, h4, h5 {
+    font-family: din-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+h1 {
+    font-size: 9rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 6rem;
+}
+h3 {
+    font-size: 4.5rem;
+}
+h4 {
+    font-size: 4rem;
+}
+h5 {
+    font-size: 2.2rem;
+}
+p {
+    font-family: Ebrima;
+    font-size: 1.1rem;
+}
+.header-content {
+    height: 100%;
+}
+#content {
+    padding: 0 !important;
+}
+.handwritten {
+    font-family: american-scribe, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#text-title {
+    position: relative;
+    top: 5rem;
+    left: 2rem
+}
+#text-title h1 {
+    line-height: .8;
+}
+
+#text-title h1:nth-child(2) {
+    left: 11rem;
+    position: relative;
+}
+#text-title h2 {
+    left: 4rem;
+    position: relative;
+}
+
+/*COLORS*/
+a{
+    color: white;
+}
+.black-bg{
+    background-color: #000;
+}
+.white-bg {
+    background-color: white;
+}
+.white {
+    color: whitesmoke;
+}
+.black {
+    color: black;
+}
+.rose {
+   color: #F51661;
+}
+.yellow {
+    color: #F7EB61 !important;
+}
+
+/*Header*/
+.one .nav-link{
+    font-family: din-condensed, sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+.nav-link {
+    padding: .5rem;
+}
+.divide {
+    padding: .7rem;
+} 
+#contact {
+    font-weight: 200;
+    color: white;
+}
+
+#slogan-one {
+color: #727272;
+transform: rotate(180deg) !important;
+writing-mode: vertical-rl;position: relative !important;
+height: 82%; 
+margin-top: 1rem;
+}
+
+#slogan-one h4 {
+    font-size: 2.7rem;
+}
+.social-media {
+    transform: rotate(180deg) !important;
+    writing-mode: vertical-rl;  
+    height: 83%;
+}
+.social-link:hover {
+ color: white;
+ text-decoration: none;
+}
+.line-vertical {
+    height: 20px;
+    width: 1rem;
+    border-left: 1px solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#running-text h2{
+    font-size: 9rem;
+}
+#title {
+    background: url("../resources/images/elements/cross_background.png");
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: top;
+    margin-top: 7rem;
+}
+
+#photo-bg-hype {
+    background: url("resources/images/index.jpg");
+    height: 40rem;
+    margin-left: 7rem !important;
+}
+#arrow {
+    position: absolute;
+    left: 47%;
+    top: 80%;
+}
+#arrow-white {
+    background: url("resources/images/elements/arrow_white.png");
+}
+#arrow-black {
+    background: url("resources/images/elements/arrow_black.png");
+}
+#arrow-white, #arrow-black {
+    width: 8rem;
+    height: 8rem;
+}
+#photo-bg-hype, #arrow-white, #arrow-black, #photo-info,
+ #photo-insta, #photo-utube, #photo-bus, #photo-design {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: right;
+}
+.service p {
+    font-size: 1.3rem;
+    font-family: din-condensed, sans-serif;
+}
+#photo-info, #photo-insta, #photo-utube, #photo-bus, #photo-design {
+     height: 38rem;
+ }
+ #photo-info {
+    background: url("/resources/images/info_blog.jpg");
+ }
+ #photo-insta {
+    background: url("/resources/images/insta_blog.jpg");
+ }
+ #photo-utube {
+    background: url("/resources/images/utube_blog.jpg");
+ }
+#photo-bus {
+    background: url("/resources/images/bus_blog.jpg");
+}
+#photo-design {
+    background: url("/resources/images/web_blog.jpg");
+}
+.more .handwritten {
+    font-size: 2.5rem;
+    line-height: .8;
+    margin-left: 11rem;
+}
+
+/*Why-us*/
+.why-us {
+    margin-top: 5rem; 
+    margin-left: 5rem ;
+}
+.why-us h2{
+    line-height: .5;
+    font-size: 10rem;
+}
+.why-us h2:nth-child(1) {
+    opacity: .8; 
+    margin-left: 8rem;
+}
+.why-us h2:nth-child(2) {
+    margin-left: 18rem; 
+}
+.p1 {
+    margin-top: 12rem;
+}
+.p2 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-left: 7rem !important;
+}
+.text-us {
+    margin-top: 6rem;
+}
+.underline {
+    text-decoration: underline;
+}
+
+
+/*Services*/
+.text-highlight {
+    text-transform: uppercase;
+    font-family: din-condensed, sans-serif;
+}
+@font-face {
+    font-family: Ebrima; 
+    src: url("../fonts/ebrima.ttf")
+    format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.footer p{
+    margin-bottom: 0 !important;
+}
+.copyright {
+    font-size: .9rem;
+    padding-bottom: 1rem;
+}
+.line {
+    margin-top: 20px;
+    height: 1px;
+    width: 1rem;
+    border-bottom: 1px solid;
+}
+.line-long {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    height: 1px;
+    width: 15rem;
+    border-bottom: 4px solid;
+}
+#cross-yellow {
+    background: url("/Users/olgakosova/Downloads/clever_hype_updated/resources/images/elements/more_yellow.png");
+}
+#cross-rose {
+    background: url("/resources/images/elements/more_rose.png");
+}
+#cross-yellow, #cross-rose {
+    height: 2rem;
+    width: 2rem;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+.line-cross {
+    margin-top: 5rem;
+    margin-left: .5rem;
+}
+
+.service {
+    margin-top: 10rem;
+}
+#about-us {
+   text-align: right; 
+   padding-left: 0 !important;
+}
+
+.about {
+    margin-top: 20rem;
+}
+
+#about-us h2 {
+    padding-right: 2rem !important;
+    line-height: .9;
+}
+
+.about-us-text {
+    padding: 4rem 3rem;
+}
+footer {
+    margin-top: 5rem;
+    padding: 0 4rem;
+}
+#email {
+    background-color: black;
+    border: 1px solid yellow;
+    width: 20rem;
+    height: 2rem;
+}
+.copyright p{
+    font-size: .9rem;
+    padding-top: 4rem;
+}
+.social-follow {
+    font-size: 1rem;
+}
+.social-follow a:hover {
+    color: #F7EB61;
+    text-decoration: none;
+}
+.hw-l:hover, .hw-r:hover {
+    text-decoration: none;
+    color: #F7EB61;
+    transition: all 1s ease;
+} 
+.line {
+    margin: .8rem 1rem 0 1rem;
+}
+.service-fluid {
+    padding: 0 15rem;
+}
+.btn {
+    border-radius: 0%;
+    border: gray 1px solid;
+    transition: .7s;
+}
+.btn:hover {
+    background: rgba(247,235,97, .8);
+    border: 1px solid #F7EB61;
+    color: black !important;
+}
+
+/*Media query*/
+@media only screen 
+	and (min-width: 1400px) {
+        html {
+            font-size: 18px;
+        }
+        p {
+            font-size: 1.5rem;
+            font-weight: 100;
+        }
+        .service p {
+            font-size: 2rem;
+        }
+        h1 {
+            font-size: 11rem;
+        }
+        h2 {
+            font-size: 9rem;
+        }
+ }
+    
+
+@media only screen 
+	and (max-width: 1100px) {
+        h3 {
+            font-size: 3rem;
+        }
+        #text-title {
+            position: relative;
+            top: 2rem;
+            left: 1rem
+        } 
+        h1 {
+            font-size: 7rem;
+        }
+        #photo-bg-hype {
+            height: 30rem;
+        }
+        #slogan-one {
+            height: 30rem; 
+            margin-top: 0;
+            }
+            
+            .social-media {
+                height: 30rem;
+            }
+            #arrow {
+                position: absolute;
+                left: 47%;
+                top: 28rem;
+            }
+            #arrow-white, #arrow-black {
+                width: 5rem;
+                height: 5rem;
+            }
+            #slogan-one h4, h4 {
+                font-size: 2.4rem;
+            }
+            .why-us {
+                margin-top: 4rem !important; 
+                margin-left: 1rem ;
+            }
+            .why-us h2{
+                font-size: 10rem;
+            }
+            .p1 {
+                margin-top: 5rem;
+                margin-bottom: 3rem;
+            }
+            .p2 {
+                margin-top: 5rem;
+                margin-bottom: 5rem;
+                margin-left: 5rem !important;
+            }
+            .line-long {
+                width: 14rem;
+            }
+            .text-us {
+                margin-top: 9rem;
+            }
+            #title {
+                margin-top: 4rem;
+            }
+    }
+    @media only screen 
+	and (min-width: 768px) and (max-width: 992px) {
+        h3 {
+            font-size: 3.5rem;
+        }
+        .line-long {
+            width: 9rem;
+        }
+        h1 {
+            font-size: 6rem;
+        }
+        .social-media {
+            height: 28rem;
+        }
+        #slogan-one {
+            height: 29rem; 
+            }
+        #running-text h2{
+            font-size: 8rem;
+        }
+        #text-title {
+            top: 0rem;
+            left: 0rem
+        }
+        #text-title h1:nth-child(2) {
+            left: 7rem;
+        }
+        #text-title h2 {
+            left: 2rem;
+        }
+        #photo-bg-hype {
+            height: 25rem;
+            margin-top: 3rem;
+        }
+        .more .handwritten {
+            margin-left: 6rem;
+        }
+        .why-us {
+            margin-top: 4rem !important; 
+            margin-left: 0 ;
+        }
+        .why-us h2{
+            font-size: 8rem;
+        }
+        .why-us h2:nth-child(1) { 
+            margin-left: 4rem;
+            margin-top: 5rem;
+        }
+        .why-us h2:nth-child(2) {
+            margin-left: 14rem; 
+        }
+        #arrow {
+            left: 49%;
+            top: 23rem;
+        }
+        #photo-info, #photo-insta, #photo-utube, #photo-bus, #photo-design {
+            height: 33rem;
+        } 
+        .header-content {
+            margin-top: 2rem;
+        }
+        .footer {
+            padding: 0 2rem !important;
+        }
+    }
+    @media only screen 
+	and (max-width: 768px) {
+        h1 {
+            font-size: 5.5rem;
+        }
+        #running-text h2{
+            font-size: 4.5rem;
+        }
+        .header-content {
+            margin-top: 1rem !important;
+        }
+        #text-title h1:nth-child(2) {
+            left: 5rem;
+        }
+        #title {
+            padding-left: 0 !important;
+        }
+        #photo-bg-hype {
+            height: 22rem;
+            margin-top: 3rem;
+        }
+        #photo-bg-hype {
+            margin-left: 5rem !important;
+        }
+        #slogan-one h4{
+            font-size: 2rem;
+            margin-left: 0 !important;
+        }
+        .social-media {
+            height: 25rem;
+        }
+        #slogan-one {
+            height: 25rem; 
+            }
+         .header-content {
+                margin-top: 5.5rem;
+            }
+            h3 {
+                font-size: 3rem;
+            }
+            .line-long {
+                width: 9rem;
+            }
+            .more .handwritten {
+                margin-left: 4rem;
+            }
+            #about-us h2 {
+                font-size: 4.8rem;
+            }
+            .about-us-text {
+                padding: 2rem .5rem;
+            }
+            .footer h5 {
+                font-size: 1.8rem !important;
+            }
+            #email {
+                width: 68%;
+                height: 2.3rem;
+            }
+            .footer {
+                padding: 0 1rem !important;
+            }
+            .p1{
+                margin-bottom: 0 !important;
+            }
+             .p2, .why-us h2 {
+                display: none;
+            }
+            .flex-one, .flex-two {
+                width: 80%;
+            }
+            .flex-two {
+                margin-top: 3rem;
+                margin-left: 6rem;
+            }
+            .flex-one {
+                margin-left: 5rem;
+            }
+            .service p {
+                font-size: 2rem;
+                position: relative;
+                top: 1rem;
+                background-color: rgba(0, 0, 0, 0.7);
+                padding: 1rem;
+                width: 22rem !important;
+                z-index: 100;
+            }
+            .info-text p, .utube-text p, .design-text p {
+                left: -7rem;
+            }
+            .insta-text h3, .bus-text h3, .utube-text h3, .design-text h3 {
+                margin-left: 1rem;
+            }
+            #photo-info, #photo-insta, #photo-utube, #photo-bus, #photo-design  {
+                position: relative;
+            }
+            #photo-utube, #photo-design {
+                left: 1rem !important;
+            }
+            #photo-insta, #photo-bus {
+                left: -1rem;
+            }
+    }
+/*MOBILE*/
+@media only screen  
+and (max-width: 575px) {
+    #email {
+        width: 75%;
+    } 
+    .flex-two {
+        margin-left: 3rem;
+    }
+    .flex-one {
+        margin-left: 2rem;
+    }
+    #photo-bg-hype {
+        height: 30rem;
+        top: 28rem;
+        position: absolute;
+        margin-left: 3rem !important;   
+    }
+    #slogan-one {
+        height: 29rem; 
+        position: absolute;
+        left: -1rem;
+        }
+    #arrow {
+        top: 23rem;
+        left: 60%;
+        display: none;
+    }
+    .social-media {
+        height: 20rem;
+    }
+
+    #title {
+        margin-left: 2rem; 
+        margin-top: 0 !important;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        background-size: cover !important;
+        height: 20rem;
+    }
+    .navbar {
+        padding-right: 0 !important;
+    }
+    #text-title h1:nth-child(2) {
+        left: 0;
+    }
+    #text-title h2 {
+        top: -1rem;
+    }
+    .social-media a {
+        font-size: 1.1rem;
+    }
+    #contact {
+        border: none;
+    }
+     #contact:hover, #contact:focus, #contact:active {
+        color:white !important;
+    }
+    #slogan-two {
+        margin-top: 5rem;
+        margin-left: 2.7rem;
+    }
+    #slogan-two h4 {
+        font-weight: 300;
+    }
+    #storytel {
+        font-size: 4.5rem;
+        text-decoration: none;
+        font-weight: 100;
+        text-transform: capitalize;
+        margin-left: 0;
+    }
+    #generation {
+        margin-left: 3rem;
+    }
+    .p1 {
+        margin-top: 4rem !important;
+    }
+   
+    .about-us-text {
+        padding-right: 0 !important;
+    }
+    
+    .service h3 {
+        font-size: 3rem;
+        position: absolute;
+        top: -6rem;
+        margin-bottom: 3rem !important;
+        z-index: 90;
+    }
+
+    .info-text p, .utube-text p, .design-text p {
+        left: -10rem;
+    }
+    .info-text h3, .design-text h3 {
+        width: fit-content;
+        text-align: right;
+    }
+    .utube-text h3{
+         width: 10rem !important;
+        text-align: right;
+    }
+    .info-text h3 {
+        left: -6rem;
+    }
+    .design-text h3 {
+        left: -2rem;
+    }
+    .utube-text h3 {
+        left: -5rem;
+    }
+    .utube-text h3 {
+        width: 9rem;
+    }
+    .service p {
+                width: 15rem !important;
+                z-index: 100;
+                font-weight: 300;
+                font-size: 1.7rem;
+                background-color: rgba(0, 0, 0, 0.8);
+                top: 2rem;
+            }
+        
+        .line-cross {
+            position: relative;
+            width: fit-content;
+        }
+        
+        .left {
+            width: 10rem;
+            z-index: 100;
+            position: relative;
+            left: -0.5rem;
+
+        }
+        .right {
+            width: 10rem;
+            position: relative;
+            left: -5rem;
+            text-align: right;
+        }
+        #cross-yellow, #cross-rose {
+            display: none;
+        }
+        #text-title h2 {
+            width: fit-content;
+            left: 0rem;
+            margin-right: 0 !important;
+        }
+    #running-text {
+      margin-bottom: 13rem !important;
+    }
+    .more .handwritten {
+        margin: 0 !important;
+        display: inline-flex;
+        width: 6rem;
+        z-index: 100;
+        position: relative;
+    }
+     
+    .hw-r {
+        right: 2rem;
+        }
+    }
+    @media only screen  
+and (max-width: 330px) {
+    #storytel {
+        font-size: 3.5rem;
+    }
+    #text-title h1 {
+        font-size: 5rem;
+    }
+   
+   .info-text h3 {
+    left: -7rem;
+}
+.design-text h3 {
+    left: -3rem;
+}
+.utube-text h3 {
+    left: -6rem;
+}
+.hw-r {
+    left: -1rem;
+    }
+.hw-l {
+    left: 1.6rem;
+}
+.right {
+    left: -5rem;
+}
+.left {
+    left: .5rem;
+}
+
+.more .handwritten {
+    position: absolute;
+}
+}
+.landing{
+    overflow-y: hidden !important;
+}
+
+/*Animation CSS*/
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #F51661;
+    color: white;
+    height: 3px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
+  @keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  .hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+
+  /*Animation intro*/
+  .intro {
+      background: black; 
+      position: fixed;
+      top:0%;
+      left: 0%;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+  .intro-text {
+      color: rgb(233, 233, 233);
+  }
+  .slider {
+    background: #F7EB61; 
+    position: fixed;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 100%; 
+    transform: translateY(100%);
+}
+.hide {
+    background: black;
+    overflow: hidden;
+}
+.t-about {
+    overflow: hidden;
+}
+.hide span  {
+    transform: translateY(100%);
+    display: inline-block;
+}
+.t-about span {
+    transform: translateY(120%);
+    display: inline-block;
+}
+.hide-it {
+    overflow-y: hidden;
+}
+
+.reveal-img,
+.reveal-text {
+  position: absolute;
+  background: black;
+  left: 0;
+  z-index: 120;
+  width: 100%;
+  height: 150%;
+  top: -20%;
+}
+
+
+.cursor {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #F51661;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+    transition-property: border, transform; 
+    transform-origin: 80% 80%;
+}
+.cursor.nav-active {
+    display: none;
+}
+.cursor.nav-social {
+    transform: scale(2);
+    border: 1px solid #F7EB61;
+}
+/*.title-swipe {
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+margin-bottom: 4rem ;
+position: absolute;
+mix-blend-mode: darken;
+transform: translateY(40%);
+}
+.title-section {
+    position: relative;
+    overflow: hidden;
+}
+.t-swipe1 {
+background: blueviolet;
+}
+/*Toggle*/
+#content{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    clip-path: circle(50px at 100% -10%);
+    -webkit-circle-path:(50px at 100% -10%);
+}
+.img, .insta-text {
+    position: relative;
+}
+.img-container, .text-container {
+    overflow: hidden;
+}
+.slide {
+   padding-top: 5rem;
+}
+.scrollmagin-pin-spacer {
+    position: static !important;
+}
+
+.pre-us {
+    height: 5rem;
+    width: 100%;
+}
+
